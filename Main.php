@@ -1,23 +1,20 @@
 <html>
   <link href="Format.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Anivers">
+          href="https://fonts.googleapis.com/css?family=Lato">
 <head>
     <div id="nav">
 <ul>
-  <div id="navLeft"><li><a href="main.php">Aaron Grode</a></li></div>
-  <li><a href="Contact.php">Contact</a></li>
-  <li><a href="About.php">About</a></li>
-  <li><a href="Resume.php">Resume</a></li>
+  <li><a href="Main.php"><img src="tedx.jpg" style="height:100px; "></a></li>
+
 </ul>
 </div>
-<div id="background">
-    <img src="guitar.jpg" class="stretch" alt="" />
-</div>
- <div id="title">
-  <br>
-    About TEDx - UW Madison
 </head>
+<div id="hero">
+    <img src="hero.jpg">
+    <h1>TEDx - UW Madison</h1>
+</div>
+
 <body>
 </body>
 <footer>
