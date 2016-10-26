@@ -263,7 +263,9 @@ margin-left: 100px;
     color: white;
     padding: 20px;
 }
-
+.footerListWords a:hover{
+    color: #0EBFE9;
+}
 .resumeFlex {
     display: flex;
     flex-direction: column;
