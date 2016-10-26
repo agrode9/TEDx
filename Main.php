@@ -12,7 +12,7 @@
 </head>
 <div id="hero">
     <img src="hero.jpg">
-    <h1>TEDx - UW Madison</h1>
+    <h1>TEDxUWMadison</h1>
 </div>
 
 <body>
@@ -22,18 +22,22 @@
       <div class="twoColumnFlexVertical">
         <div class="columnOne">
           <br>
-          <a href="https://www.linkedin.com/in/AaronGrode"><img src="linkedin.png" style="height:45px;"></a>
-          <a href="mailto:grode2@wisc.edu?Subject=Questions!" target="_top"><img src="mail.png" style="height:45px;"></a>
-          <a href="https://github.com/agrode9"><img src="github.png"  style="height:45px;"></a>
-          <div class="footerList">
-            .                        <a href="Resume.php">Resume</a>                        .
-            <a href="About.php">About</a>                         .
-            <a href="Contact.php">Contact</a>                        .
+            <div class="footerList">
+            <a href=""><img src="facebook.png" style="height:45px;"></a>
+            <a href=""><img src="instagram.png" style="height:45px;"></a>
+            <a href=""><img src="twitter.png" style="height:45px;"></a>
+            <a href=""><img src="snapchat.png" style="height:45px;"></a>
+            <a href=""><img src="youtube.png" style="height:45px;"></a>
+            </div>
+          <div class="footerListWords">
+            <a href="">Contact</a>
+            <a href="">Become a member</a>
+            <a href="">TED</a>
           </div>
         </div>
         <div class="columnTwo">
           <div class="footerList">
-            <a href="main.php">Aaron Grode</a>
+            <a href="http://www.ted.com/">This independent TEDx event is operated under license from TED.</a>
           </div>
         </div>
       </div>
