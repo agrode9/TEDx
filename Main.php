@@ -14,18 +14,18 @@
     <img src="hero.jpg">
     <h1>TEDxUWMadison</h1>
 </div>
-link to tedx https://www.ted.com/about/programs-initiatives/tedx-program
 <body>
-What is TEDx?
-
-In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, 
-self-organized events that bring people together to share a TED-like experience. Our event is called TEDxUWMadison,
-where x = independently organized TED event. At our TEDx[name] event, TEDTalks video and live speakers will 
-combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance
-for the TEDx program, but individual TEDx events, including ours, are self-organized.
-
-
-
+  <h2>What is <a href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx?</a></h2>
+<div class="backgroundIMG">
+  <h3><span>In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, 
+  self-organized events that bring people together to share a TED-like experience. Our event is called TEDxUWMadison,
+  where x = independently organized TED event. At our TEDxUWMadison event, TEDTalks video and live speakers will 
+  combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance
+  for the TEDx program, but individual TEDx events, including ours, are self-organized.
+  </h3></span>
+  
+  <img src="attempt.jpg">
+</div>
 
 
 </body>
@@ -42,9 +42,10 @@ for the TEDx program, but individual TEDx events, including ours, are self-organ
             <a href=""><img src="youtube.png" style="height:45px;"></a>
             </div>
           <div class="footerListWords">
+            <a href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx</a>
             <a href="">Contact</a>
             <a href="">Become a member</a>
-            <a href="">TED</a>
+            <a href="http://www.ted.com/">TED</a>
           </div>
         </div>
         <div class="columnTwo">
