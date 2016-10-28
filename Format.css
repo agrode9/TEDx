@@ -28,7 +28,6 @@ body {
 /* Change the link color to #111 (black) on hover */
 #nav li a:hover {
     font-weight: bold;
-    font-size: 24px;    
 font-weight:bold;
 text-decoration:none;
 border-bottom:10px solid #333333;
