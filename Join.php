@@ -19,10 +19,13 @@
 </head>
 <div id="hero">
     <a href="https://win.wisc.edu/organization/tedxuwmadison/calendar/details/990128"><img src="hero.jpg"></a>
-    <h1>About TEDxUWMadison</h1>
+    <h1>Interested in joining?</h1>
 </div>
 <body>
+
+
 </body>
+
 <footer>
   <div id="footer">
       <div class="twoColumnFlexVertical">

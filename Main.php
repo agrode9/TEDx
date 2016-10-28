@@ -9,10 +9,10 @@
           <li><a href="Main.php">TEDxUWMadison</a></li>
         </div>
         <div class="right">
-          <li><a href="">About</a></li>
-          <li><a href="">Events</a></li>
-          <li><a href="">Become a Member</a></li>
-          <li><a href="">Contact us</a></li>
+          <li><a href="About.php">About</a></li>
+          <li><a href="Events.php">Events</a></li>
+          <li><a href="Join.php">Become a Member</a></li>
+          <li><a href="Contact.php">Contact us</a></li>
         </div>
       </ul>
   </div>
