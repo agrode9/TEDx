@@ -3,12 +3,15 @@
   <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Lato">
 <head>
-    <div id="nav">
-<ul>
-  <li><a href="Main.php"><img src="tedx.jpg" style="height:100px; "></a></li>
-
-</ul>
-</div>
+  <div id="nav">
+    <ul>
+      <div id="navLeft"><li><a href="Main.php">TEDxUWMadison</a></li></div>
+      <li class="speech"><a href="">About</a></li>
+      <li class="speech"><a href="">Events</a></li>
+      <li class="speech"><a href="">Become a Member</a></li>
+      <li><a href="">Contact us</a></li>
+    </ul>
+  </div>
 </head>
 <div id="hero">
     <a href="https://win.wisc.edu/organization/tedxuwmadison/calendar/details/990128"><img src="hero.jpg"></a>
@@ -22,7 +25,7 @@
   where x = independently organized TED event. At our TEDxUWMadison event, TEDTalks video and live speakers will 
   combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance
   for the TEDx program, but individual TEDx events, including ours, are self-organized.
-  </h3></span>
+  </span></h3>
   
   <img src="attempt.jpg">
 </div>

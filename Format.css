@@ -24,23 +24,24 @@ body {
     text-decoration: none;
     font-family: 'Lato', serif;
     font-size: 23px;
+    font-weight: normal;
 }
 
 /* Change the link color to #111 (black) on hover */
 #nav li a:hover {
-    background-color: black;
-    border-radius: 50px;
+    font-weight: bold;
+    font-size: 24px;    
+font-weight:bold;
+text-decoration:none;
+border-bottom:10px solid #333333;
+
 }
 
-/*#hero {
-    width: 100%; 
-    height: auto; 
-    position: relative; 
+#nav li a:active{
+    color: black;
+}
 
-    z-index: -1;  Ensure div tag stays behind content; -999 might work, too. 
-    text-align: center;
-    overflow: hidden;
-}*/
+
 #hero{
   line-height: .5; 
   position: relative;
@@ -186,6 +187,7 @@ p {
     left: 0;
     width: 20%;
     padding-left: 100px;
+
 }
 .backgroundIMG h3 span {
     color: white; 
@@ -279,7 +281,7 @@ margin-left: 100px;
     padding: 20px;
 }
 .footerList a:hover{
-    color: #0EBFE9;
+    color: black;
 }
 .footerListWords a {
       text-decoration: none;
@@ -290,7 +292,7 @@ margin-left: 100px;
     padding: 20px;
 }
 .footerListWords a:hover{
-    color: #0EBFE9;
+    color: #b70101;
 }
 .resumeFlex {
     display: flex;
@@ -302,7 +304,7 @@ margin-left: 100px;
 
 @media (max-width: 1600px){
   .backgroundIMG h3 {
-    width: 100%;
+    width:90%;
     padding-left: 0px;
     margin-top: 0px;
     }
