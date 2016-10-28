@@ -11,7 +11,7 @@
 </div>
 </head>
 <div id="hero">
-    <img src="hero.jpg">
+    <a href="https://win.wisc.edu/organization/tedxuwmadison/calendar/details/990128"><img src="hero.jpg"></a>
     <h1>TEDxUWMadison</h1>
 </div>
 <body>
@@ -35,9 +35,9 @@
         <div class="columnOne">
           <br>
             <div class="footerList">
-            <a href=""><img src="facebook.png" style="height:45px;"></a>
-            <a href=""><img src="instagram.png" style="height:45px;"></a>
-            <a href=""><img src="twitter.png" style="height:45px;"></a>
+            <a href="https://www.facebook.com/TEDxUWMadison-207233446083245/"><img src="facebook.png" style="height:45px;"></a>
+            <a href="https://www.instagram.com/tedx_uwmadison/"><img src="instagram.png" style="height:45px;"></a>
+            <a href="https://twitter.com/tedxuwmadison"><img src="twitter.png" style="height:45px;"></a>
             <a href=""><img src="snapchat.png" style="height:45px;"></a>
             <a href=""><img src="youtube.png" style="height:45px;"></a>
             </div>
