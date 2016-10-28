@@ -2,9 +2,7 @@ body {
     background-color: #000000;
     
 }
-#navLeft {
-  float:left;
-}
+
 #nav ul {
     list-style-type: none;
     margin: 0;
@@ -37,10 +35,47 @@ border-bottom:10px solid #333333;
 
 }
 
+.mainMenu {
+ list-style: none;
+  margin: 0; 
+  
+  background: #b70101;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+}
+.left {
+float: left;
+order: 1;
+flex-basis: auto;
+flex: 0 1 auto;
+align-self: auto;
+
+}
+.right{
+order: 2;
+float: right;
+flex-basis: auto;
+flex: 0 1 auto;
+align-self: auto;
+}
 #nav li a:active{
     color: black;
 }
 
+@media all and (max-width: 1600px) {
+  .mainMenu {
+    text-align: center; 
+    justify-content: space-around;
+    align-content: center;
+  }
+}
 
 #hero{
   line-height: .5; 
@@ -322,6 +357,10 @@ margin-left: 100px;
     padding-left: 0px;
     margin-top: 0px;
     }
+
+   #nav li a {
+        font-size: 15px;
+    }
 }
 @media (max-width: 1000px){
 
@@ -356,35 +395,16 @@ p {
     margin-left: 0;
     margin-right: 0;
 }
-#navLeft{
-
-    text-align: center;
-    position: relative;
-}
-#nav {
-   position: center;
-   float: below;
-   text-align: center;
-}
-#nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #b70101;
-}
 #nav li {
     float: center;
 }
 
 #nav li a {
-    display: block;
     color: white;
     text-align: right;
     padding: 7px;
     text-decoration: none;
     font-family: 'Lato', serif;
-    font-size: 20px;
 }
 .paragraph{
     margin-right: 0;
