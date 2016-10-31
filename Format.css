@@ -338,6 +338,13 @@ margin-left: 100px;
     align-content: stretch;
 }
 
+#contactImage img {
+   max-width: 70%;
+    height: auto;
+     display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 @media (max-width: 1600px){
   .backgroundIMG h3 {
     width:90%;
@@ -413,7 +420,7 @@ p {
 #nav li a {
     color: white;
     text-align: right;
-    padding: 7px;
+    padding: 5px;
     text-decoration: none;
     font-family: 'Lato', serif;
 }
