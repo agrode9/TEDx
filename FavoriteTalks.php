@@ -21,6 +21,7 @@
     <a href="https://win.wisc.edu/organization/tedxuwmadison/calendar/details/990128"><img src="hero.jpg"></a>
     <h1>Our Favorite Talks</h1>
 </div>
+<h2>Hand-picked by UW-Madison TEDxers.</h2>
 <body>
 </body>
 <footer>

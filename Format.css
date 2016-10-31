@@ -353,11 +353,14 @@ margin-left: 100px;
     text-decoration: none;
     font-family: 'Lato', serif;
     font-size: 28px;
-    text-align: center;
+    text-align: left;
     color: white;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 200px;
 
+}
+.aboutBody h2{
+    margin-bottom: -70px;
 }
 
 @media (max-width: 1600px){
