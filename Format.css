@@ -615,6 +615,15 @@ h2{
 .pastIMG h2 {
     padding-bottom: 0px;
 }
+.columnTwo p {
+    font-size: 15px;
+    margin-top: -20px;
+}
+.columnTwo p {
+    font-size: 12px;
+    margin-top: -20px;
+}
+}
   @media screen and (min-width: 75em) {
     #hero img {
       object-fit: cover;

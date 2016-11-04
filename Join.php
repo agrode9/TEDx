@@ -48,10 +48,9 @@
         <p>Year: $20</p>
       </div> 
     </div>
-    <p>Member dues cover our ticket to our event every fall and most social events.</p>
+    <p>Member dues cover your ticket to the event every fall and most social events.</p>
   </div>
 </body>
-
 <footer>
   <div id="footer">
       <div class="twoColumnFlexVertical">
@@ -84,6 +83,7 @@
           <div class="footerList">
             <a href="http://www.ted.com/">This independent TEDx event is operated under license from TED.</a>
           </div>
+          <p> &#169; 2016 Designed and developed by Jessica Tang and Aaron Grode.</p>
         </div>
       </div>
   </div>

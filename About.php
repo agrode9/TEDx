@@ -34,16 +34,19 @@
     <h2>Click <a href="Exec_bios.php">HERE</a> to learn more about the exec board!</h2>
     <ul class="execContainer">
     <a href="Exec_bios.php#bio1">
-      <li class="execMember"><img src="filler.jpg"></li></a>
-     <a href="Exec_bios.php#bio2"> <li class="execMember"><img src="filler.jpg"></li></a>
-     <a href="Exec_bios.php#bio3"> <li class="execMember"><img src="filler.jpg"></li></a>
-     <a href="Exec_bios.php#bio4"> <li class="execMember"><img src="filler.jpg"></li></a>
-     <a href="Exec_bios.php#bio5"> <li class="execMember"><img src="filler.jpg"></li></a>
-     <a href="Exec_bios.php#bio6"><li class="execMember"><img src="filler.jpg"></li></a>
+      <li class="execMember"><img src="filler.jpg"onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
+     <a href="Exec_bios.php#bio2"> <li class="execMember"><img src="filler.jpg" onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
+     <a href="Exec_bios.php#bio3"> <li class="execMember"><img src="filler.jpg"onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
+     <a href="Exec_bios.php#bio4"> <li class="execMember"><img src="filler.jpg"onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
+     <a href="Exec_bios.php#bio5"> <li class="execMember"><img src="filler.jpg"onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
+     <a href="Exec_bios.php#bio6"><li class="execMember"><img src="filler.jpg"onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
   </ul>
-<!--   Code for adding the light hover to each of the above images. Go to photoshop, change brightness to +13.
- -->  <!-- onmouseover="this.src='filler_hover.jpg';"
-                onmouseout="this.src='filler.jpg';" -->
     <h2>About TEDx, x = independently organized event</h2>
     <p>In the spirit of ideas worth spreading, TEDx is a program of local, 
       self-organized events that bring people together to share a TED-like experience.
@@ -120,6 +123,7 @@
           <div class="footerList">
             <a href="http://www.ted.com/">This independent TEDx event is operated under license from TED.</a>
           </div>
+          <p> &#169; 2016 Designed and developed by Jessica Tang and Aaron Grode.</p>
         </div>
       </div>
   </div>
