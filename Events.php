@@ -18,11 +18,26 @@
   </div>
 </head>
 <div id="hero">
-    <a href="https://win.wisc.edu/organization/tedxuwmadison/calendar/details/990128"><img src="hero.jpg"></a>
+    <img src="banner2.jpg">
     <h1>Past Events</h1>
 </div>
 <body>
+  <div class ="pastIMG">
+      <h2>2015</h2>
+    <img src="2015.png">
+     <h2>The theme for 2015 was Crafting Global Minds.</h2>
 
+    <h3>Click <a href="https://www.facebook.com/TEDxUWMadison-207233446083245/photos/?tab=album&album_id=642660585873860">
+    HERE</a> for more information about our 2015 event.</h3>
+  </div>
+  <br>
+  <div class ="pastIMG">
+    <h2>2014</h2>
+    <img src="2014.jpg">
+     <h2>The theme for 2014 was Designing Change.</h2>
+    <h3>Click <a href="https://www.facebook.com/TEDxUWMadison-207233446083245/photos/?tab=album&album_id=495013167305270">
+    HERE</a> for more information about our 2014 event.</h3>
+  </div>
 </body>
 <footer>
   <div id="footer">
@@ -30,12 +45,24 @@
         <div class="columnOne">
           <br>
             <div class="footerList">
-            <a href="https://www.facebook.com/TEDxUWMadison-207233446083245/"><img src="facebook.png" style="height:45px;"></a>
-            <a href="https://www.instagram.com/tedx_uwmadison/"><img src="instagram.png" style="height:45px;"></a>
-            <a href="https://twitter.com/tedxuwmadison"><img src="twitter.png" style="height:45px;"></a>
-            <a href="mailto:smlalonde@wisc.edu?Subject=Questions!" target="_top"><img src="mail.png" style="height:45px;"></a>
-            <a href=""><img src="snapchat.png" style="height:45px;"></a>
-            <a href=""><img src="youtube.png" style="height:45px;"></a>
+            <a href="https://www.facebook.com/TEDxUWMadison-207233446083245/"><img src="facebook.png" style="height:45px;"
+              onmouseover="this.src='facebook_grey.png';" onmouseout="this.src='facebook.png';"></a>
+
+            <a href="https://www.instagram.com/tedx_uwmadison/"><img src="instagram.png" style="height:45px;"
+              onmouseover="this.src='instagram_grey.png';" onmouseout="this.src='instagram.png';"></a>
+
+            <a href="https://twitter.com/tedxuwmadison"><img src="twitter.png" style="height:45px;"
+              onmouseover="this.src='twitter_grey.png';" onmouseout="this.src='twitter.png';"></a>
+
+            <a href="mailto:smlalonde@wisc.edu?Subject=Questions!" target="_top"><img src="mail.png" style="height:45px;"
+              onmouseover="this.src='mail_grey.png';" onmouseout="this.src='mail.png';"></a>
+
+            <a href=""><img src="snapchat.png" style="height:45px;"
+              onmouseover="this.src='snapchat_grey.png';" onmouseout="this.src='snapchat.png';"></a>
+
+            <a href=""><img src="youtube.png" style="height:45px;"
+              onmouseover="this.src='youtube_grey.png';" onmouseout="this.src='youtube.png';"></a>
+
             </div>
           <div class="footerListWords">
             <a href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx</a>

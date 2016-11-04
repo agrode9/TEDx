@@ -33,7 +33,26 @@ text-decoration:none;
 border-bottom:10px solid #333333;
 
 }
-
+video {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    width: auto;
+}
+.videoBackground h2 {
+    padding-top: 100px;
+}
+.videoBackground{
+    display: block;
+    height: 800px;
+    background-color: #333333;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    width: 600px;
+}
 .mainMenu {
  list-style: none;
   margin: 0; 
@@ -67,7 +86,9 @@ align-self: auto;
 #nav li a:active{
     color: black;
 }
-
+#hero h1 {
+    margin-top: 100px;
+}
 @media all and (max-width: 1600px) {
   .mainMenu {
     text-align: center; 
@@ -80,11 +101,9 @@ align-self: auto;
   line-height: .5; 
   position: relative;
 }
-#hero h1 {
-    margin-top: 100px;
-}
 #hero img {
     width: 100%; 
+    height: auto;
 }
 
 .stretch {
@@ -122,7 +141,7 @@ h3{
     text-decoration: none;
     font-family: 'Lato', serif;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 h4{
@@ -215,24 +234,31 @@ p {
     column-width: auto;
     overflow: hidden;
 }
+.pastIMG img{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
 .backgroundIMG {
     position: relative;
     width: 100%;
-    overflow: hidden;
+    height: auto;
+}
+.backgroundIMG img {
+    width: 100%; 
+    height: auto;
 }
 .backgroundIMG h3 {
     position: absolute;
-    top: 100px;
     left: 0;
-    width: 20%;
-    padding-left: 100px;
+    width: 100%;
 
 }
 .backgroundIMG h3 span {
     color: white; 
    font: bold 24px/45px Lato, Lato; 
-   padding: 10px;
-
+   line-height: 35px;
 }
 .backgroundIMG h3 span.spacer {
     padding: 0 5px;
@@ -289,6 +315,13 @@ flex: 0 1 auto;
 align-self: auto;
 background-color: #b70101;
 } 
+.seperator {
+    flex-basis: auto;
+    flex: 0 1 auto;
+    align-self: auto;
+    background-color: white;
+    color: white;
+}
 .columnOneHorizontal{
 order: 1;
 flex-basis: auto;
@@ -342,9 +375,10 @@ margin-left: 100px;
 }
 
 #contactImage img {
-   max-width: 70%;
+    padding-bottom: 50px;
+    max-width: 70%;
     height: auto;
-     display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto
 }
@@ -362,26 +396,28 @@ margin-left: 100px;
 .aboutBody h2{
     margin-bottom: -70px;
 }
+.aboutBody p {
+    line-height: 39px;
+}
+@media (max-width: 1060px){
+    .aboutBody p{
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
 
-@media (max-width: 1600px){
-  .backgroundIMG h3 {
-    width:90%;
-    padding-left: 0px;
-    margin-top: 0px;
-    }
+}
+.aboutBody h2{
+    margin-bottom: 0px;
+}
+.aboutBody p {
+    line-height: 30px;
+}
 }
 @media (max-width: 862px){
-  .backgroundIMG h3 {
-    width: 60%;
-    padding-left: 0px;
-    margin-top: 0px;
-    }
     h2 {
     padding-bottom: 0px;
 }
-}
-@media (max-width: 528px){
-  .backgroundIMG h3 {
+ .backgroundIMG h3 {
     width: 100%;
     padding-left: 0px;
     margin-top: 0px;
@@ -389,6 +425,8 @@ margin-left: 100px;
     .backgroundIMG h3 span {
         font-size: 20px;
     }
+}
+@media (max-width: 528px){
    #nav li a {
         font-size: 15px;
     }
@@ -396,10 +434,67 @@ margin-left: 100px;
     padding-bottom: 0px;
 }
 }
+@media (max-width: 1180px) {
+     .backgroundIMG img {
+        display: none;
+     }
+     .backgroundIMG h3 {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    .backgroundIMG h3 span {
+        font-size: 20px;
+    }
+     .backgroundIMG {
+        background-color: black;
+        height: 500px;
+     }
+}
+/*@media (min-width: 1300px){
+    #hero img {
+        fix how the image overflows here
+    }
+}*/
+@media (max-width: 980px){
+    video {
+        height: 300px;
+        width: auto;
+    }
+    .videoBackground{
+    display: block;
+    height: 400px;
+}
+    .videoBackground h2 {
+        padding-top: 10px;
+    }
+    iframe {
+        height: 300px;
+        width: auto;
+    }
+    .videoBackground{
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 620px){
+     video {
+        height: 200px;
+        width: auto;
+    }
+ .videoBackground{
+    display: block;
+    height: 350px;
+}
+    iframe {
+    height: 200px;
+    width: auto;
+}
+}
 @media (max-width: 1000px){
 h2 {
     padding-bottom: 0px;
 }
+    
     #columns{
          -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
@@ -470,6 +565,12 @@ h2{
     padding: 10px;
     font-size: 17px;
 }
+.pastIMG img{
+    width: 100%;
+}
+}
+.pastIMG h2 {
+    padding-bottom: 0px;
 }
   @media screen and (min-width: 75em) {
     #hero img {
