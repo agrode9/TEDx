@@ -32,7 +32,14 @@
   <div class ="aboutBody">
     <h2>Meet the exec board</h2>
     <p>I want to use a flex here to add the exec board in a panel.</p>
-
+    <ul class="execContainer">
+      <li class="execMember"><img src="filler.jpg"></li>
+      <li class="execMember"><img src="filler.jpg"></li>
+      <li class="execMember"><img src="filler.jpg"></li>
+      <li class="execMember"><img src="filler.jpg"></li>
+      <li class="execMember"><img src="filler.jpg"></li>
+      <li class="execMember"><img src="filler.jpg"></li>
+  </ul>
     <h2>About TEDx, x = independently organized event</h2>
     <p>In the spirit of ideas worth spreading, TEDx is a program of local, 
       self-organized events that bring people together to share a TED-like experience.

@@ -48,7 +48,7 @@
         <p>Year: $20</p>
       </div> 
     </div>
-    <p>*Member dues cover our ticket to our event every fall and most social events.</p>
+    <p>Member dues cover our ticket to our event every fall and most social events.</p>
   </div>
 </body>
 
