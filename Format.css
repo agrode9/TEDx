@@ -72,19 +72,14 @@ iframe {
     width: 600px;
 }
 .mainMenu {
- list-style: none;
-  margin: 0; 
-  
-  background: #b70101;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+    background: #b70101;
+
 }
 .left {
 float: left;
