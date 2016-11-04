@@ -20,16 +20,15 @@
 <div id="hero">
     <img src="about.jpg">
     <h1>About us</h1>
+    <h2>TEDxUWMadison</h2>
 </div>
 <body>
-  <div class="videoBackground">
+  <div class="videoBackgroundAbout">
     <h2>What is <a href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx?</a></h2>
-    <div class="videoBackground">
-        <iframe width="688" height="387"
+        <iframe
             src="https://www.youtube.com/embed/N-l1xtCMnpw" frameborder="0" allowfullscreen>
         </iframe>
   </div>
-
   <div class ="aboutBody">
     <h2>Meet the exec board</h2>
     <p>I want to use a flex here to add the exec board in a panel.</p>
@@ -44,8 +43,9 @@
     </p>
 
     <h2>About TED</h2>
+
     <p>TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day 
-      conference in California 30 years ago, TED has grown to support its mission with multiple 
+      conference in California 30 years ago, TED has grown to support its mission with multiple <img src="tedAbout.png">
       initiatives. The two annual TED Conferences invite the world's leading thinkers and doers to 
       speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. 
       TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, 
