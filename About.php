@@ -40,6 +40,9 @@
       <li class="execMember"><img src="filler.jpg"></li>
       <li class="execMember"><img src="filler.jpg"></li>
   </ul>
+<!--   Code for adding the light hover to each of the above images. Go to photoshop, change brightness to +13.
+ -->  <!-- onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';" -->
     <h2>About TEDx, x = independently organized event</h2>
     <p>In the spirit of ideas worth spreading, TEDx is a program of local, 
       self-organized events that bring people together to share a TED-like experience.
