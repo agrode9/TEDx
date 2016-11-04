@@ -29,6 +29,7 @@
 
     <h3>Click <a href="https://www.facebook.com/TEDxUWMadison-207233446083245/photos/?tab=album&album_id=642660585873860">
     HERE</a> for more information about our 2015 event.</h3>
+    <h3>TED linked to our event on their site. Find that information <a href="http://www.ted.com/tedx/events/16423"> HERE</a>.</h3>
   </div>
   <br>
   <div class ="pastIMG">

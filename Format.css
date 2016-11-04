@@ -284,8 +284,15 @@ order: 1;
 flex-basis: auto;
 flex: 0 1 auto;
 align-self: auto;
-margin-right: 100px;
+margin-right: 0px;
 }
+.columnTwoHorizontal {
+order: 2;
+flex-basis: auto;
+flex: 0 1 auto;
+align-self: auto;
+margin-left: 0px;
+} 
 .twoColumnFlexHorizontal{
 display: flex;
 flex-direction: row;
@@ -294,13 +301,6 @@ justify-content: center;
 align-content: flex-start;
 
 }
-.columnTwoHorizontal {
-order: 2;
-flex-basis: auto;
-flex: 0 1 auto;
-align-self: auto;
-margin-left: 100px;
-} 
 .footerList a{
    text-decoration: none;
     font-family: 'Lato', serif;
@@ -430,7 +430,7 @@ margin-left: 100px;
     }
  .videoBackground{
     display: block;
-    height: 350px;
+    height: 370px;
     }
     iframe {
     height: 200px;
