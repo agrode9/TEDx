@@ -36,21 +36,21 @@
         </iframe>
      </div>
         <div class="videoBackground">
-        <h2>How to raise successful kids without over-parenting | Julie Lythcott-Haims</h2>
+        <h2>Why the buildings of the future will be shaped by ... you | Marc Kushner</h2>
         <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/CyElHdaqkjo" frameborder="0" allowfullscreen>
+            src="https://www.youtube.com/embed/hha0NsYXS5c" frameborder="0" allowfullscreen>
         </iframe>
      </div>
         <div class="videoBackground">
-        <h2>How to raise successful kids without over-parenting | Julie Lythcott-Haims</h2>
+        <h2>I got 99 problems... palsy is just one | Maysoon Zayid</h2>
         <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/CyElHdaqkjo" frameborder="0" allowfullscreen>
+            src="https://www.youtube.com/embed/buRLc2eWGPQ" frameborder="0" allowfullscreen>
         </iframe>
      </div>
         <div class="videoBackground">
-        <h2>How to raise successful kids without over-parenting | Julie Lythcott-Haims</h2>
+        <h2>The transformative power of classical music | Benjamin Zander</h2>
         <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/CyElHdaqkjo" frameborder="0" allowfullscreen>
+            src="https://www.youtube.com/embed/r9LCwI5iErE" frameborder="0" allowfullscreen>
         </iframe>
      </div>
 </body>
