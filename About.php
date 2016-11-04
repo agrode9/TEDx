@@ -31,14 +31,15 @@
   </div>
   <div class ="aboutBody">
     <h2>Meet the exec board</h2>
-    <h2>Click <a href="">HERE</a> to learn more about the exec board!</h2>
+    <h2>Click <a href="Exec_bios.php">HERE</a> to learn more about the exec board!</h2>
     <ul class="execContainer">
-      <li class="execMember"><img src="filler.jpg"></li>
-      <li class="execMember"><img src="filler.jpg"></li>
-      <li class="execMember"><img src="filler.jpg"></li>
-      <li class="execMember"><img src="filler.jpg"></li>
-      <li class="execMember"><img src="filler.jpg"></li>
-      <li class="execMember"><img src="filler.jpg"></li>
+    <a href="Exec_bios.php#bio1">
+      <li class="execMember"><img src="filler.jpg"></li></a>
+     <a href="Exec_bios.php#bio2"> <li class="execMember"><img src="filler.jpg"></li></a>
+     <a href="Exec_bios.php#bio3"> <li class="execMember"><img src="filler.jpg"></li></a>
+     <a href="Exec_bios.php#bio4"> <li class="execMember"><img src="filler.jpg"></li></a>
+     <a href="Exec_bios.php#bio5"> <li class="execMember"><img src="filler.jpg"></li></a>
+     <a href="Exec_bios.php#bio6"><li class="execMember"><img src="filler.jpg"></li></a>
   </ul>
     <h2>About TEDx, x = independently organized event</h2>
     <p>In the spirit of ideas worth spreading, TEDx is a program of local, 
@@ -100,11 +101,8 @@
             <a href="mailto:smlalonde@wisc.edu?Subject=Questions!" target="_top"><img src="mail.png" style="height:45px;"
               onmouseover="this.src='mail_grey.png';" onmouseout="this.src='mail.png';"></a>
 
-            <a href=""><img src="snapchat.png" style="height:45px;"
+            <a href="http://snapchat.com/add/tedxuwmadison"><img src="snapchat.png" style="height:45px;"
               onmouseover="this.src='snapchat_grey.png';" onmouseout="this.src='snapchat.png';"></a>
-
-            <a href=""><img src="youtube.png" style="height:45px;"
-              onmouseover="this.src='youtube_grey.png';" onmouseout="this.src='youtube.png';"></a>
 
             </div>
           <div class="footerListWords">

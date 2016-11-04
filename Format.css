@@ -2,7 +2,14 @@ body {
     background-color: #000000;
     
 }
-
+#bg{
+    position: fixed;
+    top:0;
+    left:0;
+    min-width:100%;
+    min-height:100%;
+    z-index:-1;
+}
 #nav ul {
     list-style-type: none;
     margin: 0;
@@ -279,7 +286,18 @@ background-color: #b70101;
     background-color: white;
     color: white;
 }
-
+.exec_bios_flex{
+    display: inline-block;
+    margin-left: 130px;
+    margin-right: 130px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  background-color: black;
+}
 
 .execContainer {
    padding: 0;
@@ -438,6 +456,10 @@ align-content: flex-start;
     video {
         height: 300px;
         width: auto;
+    }
+    .exec_bios_flex{
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .videoBackground{
     display: block;
