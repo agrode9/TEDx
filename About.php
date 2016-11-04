@@ -25,8 +25,8 @@
   <div class="videoBackground">
     <h2>What is <a href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx?</a></h2>
     <div class="videoBackground">
-        <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/N-l1xtCMnpw">
+        <iframe width="688" height="387"
+            src="https://www.youtube.com/embed/N-l1xtCMnpw" frameborder="0" allowfullscreen>
         </iframe>
   </div>
 

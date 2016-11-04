@@ -26,31 +26,31 @@
    <div class="videoBackground">
         <h2>How to raise successful kids without over-parenting | Julie Lythcott-Haims</h2>
         <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/CyElHdaqkjo">
+            src="https://www.youtube.com/embed/CyElHdaqkjo" frameborder="0" allowfullscreen>
         </iframe>
      </div>
         <div class="videoBackground">
         <h2>How to raise successful kids without over-parenting | Julie Lythcott-Haims</h2>
         <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/CyElHdaqkjo">
+            src="https://www.youtube.com/embed/CyElHdaqkjo" frameborder="0" allowfullscreen>
         </iframe>
      </div>
         <div class="videoBackground">
         <h2>How to raise successful kids without over-parenting | Julie Lythcott-Haims</h2>
         <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/CyElHdaqkjo">
+            src="https://www.youtube.com/embed/CyElHdaqkjo" frameborder="0" allowfullscreen>
         </iframe>
      </div>
         <div class="videoBackground">
         <h2>How to raise successful kids without over-parenting | Julie Lythcott-Haims</h2>
         <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/CyElHdaqkjo">
+            src="https://www.youtube.com/embed/CyElHdaqkjo" frameborder="0" allowfullscreen>
         </iframe>
      </div>
         <div class="videoBackground">
         <h2>How to raise successful kids without over-parenting | Julie Lythcott-Haims</h2>
         <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/CyElHdaqkjo">
+            src="https://www.youtube.com/embed/CyElHdaqkjo" frameborder="0" allowfullscreen>
         </iframe>
      </div>
 </body>
