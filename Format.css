@@ -55,6 +55,9 @@ video {
 .videoBackgroundAbout h2 {
     padding-top: 100px;
 }
+.backgroundIMGsmall{
+    display: none;
+}
 iframe {
     display: block;
     margin: 0 auto;
@@ -320,7 +323,7 @@ align-self: auto;
 margin-right: 0px;
 }
 .columnOneHorizontal img:hover{
-    
+
 }
 .columnTwoHorizontal {
 order: 2;
@@ -379,6 +382,7 @@ align-content: flex-start;
     margin-left: auto;
     margin-right: auto
 }
+
 @media (max-width: 862px){
     h2 {
     padding-bottom: 0px;
@@ -429,7 +433,16 @@ align-content: flex-start;
     }
      .backgroundIMG {
         background-color: black;
+        height: 300px;
+     }
+     .backgroundIMGsmall img{
         height: 500px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+     }
+     .backgroundIMGsmall {
+        display: block;
      }
 }
 /*@media (min-width: 1300px){
@@ -438,6 +451,9 @@ align-content: flex-start;
     }
 }*/
 @media (max-width: 980px){
+    .backgroundIMGsmall img {
+        height: 300px;
+    }
     video {
         height: 300px;
         width: auto;
@@ -464,6 +480,9 @@ align-content: flex-start;
     }
 }
 @media (max-width: 620px){
+    .backgroundIMGsmall img {
+        height: 200px;
+    }
      video {
         height: 200px;
         width: auto;
@@ -580,5 +599,13 @@ h2{
       object-position: 0% 22%;
       /*the defualt was at 400px for max-height*/
       max-height: 450px; 
+    }
+}
+@media (max-width: 588px){
+    .backgroundIMG {
+        height: 500px;
+    }
+    .backgroundIMGsmall  {
+        height: 200px;
     }
 }

@@ -40,8 +40,9 @@
   
   <img src="mainBackIMG.jpg">
 </div>
-
-
+<div class="backgroundIMGsmall">
+    <img src="mainBackIMG.jpg">
+</div>
 </body>
 <footer>
   <div id="footer">
