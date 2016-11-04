@@ -31,7 +31,7 @@
   </div>
   <div class ="aboutBody">
     <h2>Meet the exec board</h2>
-    <p>I want to use a flex here to add the exec board in a panel.</p>
+    <h2>Click <a href="">HERE</a> to learn more about the exec board!</h2>
     <ul class="execContainer">
       <li class="execMember"><img src="filler.jpg"></li>
       <li class="execMember"><img src="filler.jpg"></li>
@@ -66,6 +66,20 @@
       helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.
       Follow TED on <a href="http://twitter.com/TEDTalks">Twitter</a>, or on <a href="http://www.facebook.com/TED">Facebook</a>.
     </p>
+    <h2>About This Site</h2>
+    <p>This site was designed and created by Jessica Tang and Aaron Grode, both members of TEDxUWMadison.
+        Members of TEDxUWMadison since 2015, they now are co-leads of the web team that created the site and
+        maintains it regularly. If you would like to contact either Jessica or Aaron, send an email by
+        clicking <a href="mailto:grode2@wisc.edu?Subject=QuestionsOnWeb" target="_top">HERE</a>.</p>  
+
+          <div class="twoColumnFlexHorizontal">
+            <div class="columnOneHorizontal">
+              <a href="https://www.linkedin.com/in/jessrosetang"><img src="filler2.jpg"></a>
+            </div>
+            <div class="columnTwoHorizontal">
+              <a href="https://www.linkedin.com/in/aarongrode"><img src="filler.jpg"></a>
+            </div>
+          </div>
   </div>
 </body>
 <footer>

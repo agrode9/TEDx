@@ -312,16 +312,6 @@ background-color: #b70101;
   font-size: 3em;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
 .columnOneHorizontal{
 order: 1;
 flex-basis: auto;
@@ -343,6 +333,10 @@ flex-wrap: nowrap;
 justify-content: center;
 align-content: flex-start;
 
+}
+.twoColumnFlexHorizontal img {
+    height: 200px;
+    width: 210px;
 }
 .footerList a{
    text-decoration: none;
@@ -541,13 +535,19 @@ p {
     margin-left: 0;
 }
 .columnOneHorizontal{
-    margin-right: 0;
+    margin: 0 auto;
 }
 .columnTwoHorizontal{
-    margin-left: 0;
+    margin: 0 auto;
 }
 .twoColumnFlexHorizontal{
 flex-direction: column;
+justify-content: center;
+
+}
+.twoColumnFlexHorizontal img {
+    height: 200px;
+    width: 210px;
 }
 h1 {
     font-size: 40px;
