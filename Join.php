@@ -27,6 +27,23 @@
       our email list or to get more information!</h2>
     <img src="tedExec.jpg">
   </div>
+  <div class="join">
+    <h2>Why Join?</h2>
+    <p>Become a part of our campus-wide event every Fall and a close community year round!</p>
+
+    <h2>Details:</h2>
+    <h4>Fall Semester:</h4>
+    <p>TEDxUWMadison meets every other Tuesday to watch TED talks and organize our event.</p>
+    <h4>Spring Semester:</h4> 
+    <p>TEDxUWMadison meets every other Tuesday to watch TED talks and socialize! Social
+      events include: bowling, ice cream socials, an event where members can give their own
+      TED talk and more! TEDxUWMadison's opportunities are endless and we would love to add more members to our community.</p>
+
+    <h4>Member Dues:</h4>
+    <p>Semester: $15</p>
+    <p>Year: $20</p>
+    <p>*Member dues cover our ticket to our event every fall and most social events.</p>
+  </div>
 </body>
 
 <footer>

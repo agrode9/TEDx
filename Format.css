@@ -147,7 +147,7 @@ h3{
 h4{
     text-decoration: none;
     font-family: 'Lato', serif;
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
     color: #b70101;
 }
@@ -162,15 +162,12 @@ h5{
 p {
     text-decoration: none;
     font-family: 'Lato', serif;
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
-    color: black;
-    line-height: 200%;
-    -webkit-column-span: 1; /* Chrome, Safari, Opera */
-    column-span: 1;
-
-    margin-left: 200px;
-    margin-right: 200px;
+    color: white;
+    line-height: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 #mainText{
      text-decoration: none;
@@ -182,57 +179,9 @@ p {
     -webkit-column-span: 1; /* Chrome, Safari, Opera */
     column-span: 1;
 }
-#columns{
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
 
-    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 30px; /* Firefox */
-    column-gap: 30px;
-
-    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
-    -moz-column-rule-style: solid; /* Firefox */
-    column-rule-style: solid;
-
-    -webkit-column-rule-width: 4px; /* Chrome, Safari, Opera */
-    -moz-column-rule-width: 4px; /* Firefox */
-    column-rule-width: 4px;
-
-    -webkit-column-rule-color: #b70101; /* Chrome, Safari, Opera */
-    -moz-column-rule-color: #b70101; /* Firefox */
-    column-rule-color: #b70101;
-
-    -webkit-column-width: auto; /* Chrome, Safari, Opera */
-    -moz-column-width: auto; /* Firefox */
-    column-width: auto;
-    overflow: hidden;
-}
-#columns2{
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-
-    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 30px; /* Firefox */
-    column-gap: 30px;
-
-    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
-    -moz-column-rule-style: solid; /* Firefox */
-    column-rule-style: solid;
-
-    -webkit-column-rule-width: 4px; /* Chrome, Safari, Opera */
-    -moz-column-rule-width: 4px; /* Firefox */
-    column-rule-width: 4px;
-
-    -webkit-column-rule-color: #b70101; /* Chrome, Safari, Opera */
-    -moz-column-rule-color: #b70101; /* Firefox */
-    column-rule-color: #b70101;
-
-    -webkit-column-width: auto; /* Chrome, Safari, Opera */
-    -moz-column-width: auto; /* Firefox */
-    column-width: auto;
-    overflow: hidden;
+.join h2{
+    padding-bottom: 0px;
 }
 .pastIMG img{
     width: 60%;

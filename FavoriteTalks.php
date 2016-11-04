@@ -21,7 +21,7 @@
     <img src="tedBanner.jpg">
     <h1>Our Favorite Talks</h1>
 </div>
-<h2>Hand-picked by UW-Madison TEDxers.</h2>
+<h2>Hand-picked by UW-Madison TEDx'ers.</h2>
 <body>
    <div class="videoBackground">
         <h2>How to raise successful kids without over-parenting | Julie Lythcott-Haims</h2>
