@@ -319,6 +319,9 @@ flex: 0 1 auto;
 align-self: auto;
 margin-right: 0px;
 }
+.columnOneHorizontal img:hover{
+    
+}
 .columnTwoHorizontal {
 order: 2;
 flex-basis: auto;

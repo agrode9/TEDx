@@ -74,10 +74,12 @@
 
           <div class="twoColumnFlexHorizontal">
             <div class="columnOneHorizontal">
-              <a href="https://www.linkedin.com/in/jessrosetang"><img src="filler2.jpg"></a>
+              <a href="https://www.linkedin.com/in/jessrosetang"><img src="filler2.jpg" onmouseover="this.src='filler2_hover.jpg';"
+                onmouseout="this.src='filler2.jpg';"></a>
             </div>
             <div class="columnTwoHorizontal">
-              <a href="https://www.linkedin.com/in/aarongrode"><img src="filler.jpg"></a>
+              <a href="https://www.linkedin.com/in/aarongrode"><img src="filler.jpg" onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></a>
             </div>
           </div>
   </div>
