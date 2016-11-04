@@ -100,11 +100,8 @@
             <a href="mailto:smlalonde@wisc.edu?Subject=Questions!" target="_top"><img src="mail.png" style="height:45px;"
               onmouseover="this.src='mail_grey.png';" onmouseout="this.src='mail.png';"></a>
 
-            <a href=""><img src="snapchat.png" style="height:45px;"
+            <a href="http://snapchat.com/add/tedxuwmadison"><img src="snapchat.png" style="height:45px;"
               onmouseover="this.src='snapchat_grey.png';" onmouseout="this.src='snapchat.png';"></a>
-
-            <a href=""><img src="youtube.png" style="height:45px;"
-              onmouseover="this.src='youtube_grey.png';" onmouseout="this.src='youtube.png';"></a>
 
             </div>
           <div class="footerListWords">
