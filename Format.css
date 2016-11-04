@@ -95,7 +95,7 @@ align-self: auto;
     color: black;
 }
 #hero h1 {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 @media all and (max-width: 1600px) {
   .mainMenu {
@@ -361,7 +361,6 @@ margin-left: 100px;
     margin: 0 0 10px 10px;
 }
 .aboutBody h2 {
-   
     padding-bottom: 0px;
 }
 @media (max-width: 528px){

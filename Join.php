@@ -40,8 +40,7 @@
       TED talk and more! TEDxUWMadison's opportunities are endless and we would love to add more members to our community.</p>
 
     <h4>Member Dues:</h4>
-    <p>Semester: $15</p>
-    <p>Year: $20</p>
+    <p>Semester: $15</p> <p>Year: $20</p>
     <p>*Member dues cover our ticket to our event every fall and most social events.</p>
   </div>
 </body>
