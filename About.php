@@ -34,12 +34,18 @@
     <h2>Click <a href="Exec_bios.php">HERE</a> to learn more about the exec board!</h2>
     <ul class="execContainer">
     <a href="Exec_bios.php#bio1">
-      <li class="execMember"><img src="filler.jpg"></li></a>
-     <a href="Exec_bios.php#bio2"> <li class="execMember"><img src="filler.jpg"></li></a>
-     <a href="Exec_bios.php#bio3"> <li class="execMember"><img src="filler.jpg"></li></a>
-     <a href="Exec_bios.php#bio4"> <li class="execMember"><img src="filler.jpg"></li></a>
-     <a href="Exec_bios.php#bio5"> <li class="execMember"><img src="filler.jpg"></li></a>
-     <a href="Exec_bios.php#bio6"><li class="execMember"><img src="filler.jpg"></li></a>
+      <li class="execMember"><img src="filler.jpg"onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
+     <a href="Exec_bios.php#bio2"> <li class="execMember"><img src="filler.jpg" onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
+     <a href="Exec_bios.php#bio3"> <li class="execMember"><img src="filler.jpg"onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
+     <a href="Exec_bios.php#bio4"> <li class="execMember"><img src="filler.jpg"onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
+     <a href="Exec_bios.php#bio5"> <li class="execMember"><img src="filler.jpg"onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
+     <a href="Exec_bios.php#bio6"><li class="execMember"><img src="filler.jpg"onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></li></a>
   </ul>
     <h2>About TEDx, x = independently organized event</h2>
     <p>In the spirit of ideas worth spreading, TEDx is a program of local, 
@@ -75,10 +81,12 @@
 
           <div class="twoColumnFlexHorizontal">
             <div class="columnOneHorizontal">
-              <a href="https://www.linkedin.com/in/jessrosetang"><img src="filler2.jpg"></a>
+              <a href="https://www.linkedin.com/in/jessrosetang"><img src="filler2.jpg" onmouseover="this.src='filler2_hover.jpg';"
+                onmouseout="this.src='filler2.jpg';"></a>
             </div>
             <div class="columnTwoHorizontal">
-              <a href="https://www.linkedin.com/in/aarongrode"><img src="filler.jpg"></a>
+              <a href="https://www.linkedin.com/in/aarongrode"><img src="filler.jpg" onmouseover="this.src='filler_hover.jpg';"
+                onmouseout="this.src='filler.jpg';"></a>
             </div>
           </div>
   </div>
@@ -115,6 +123,7 @@
           <div class="footerList">
             <a href="http://www.ted.com/">This independent TEDx event is operated under license from TED.</a>
           </div>
+          <p> &#169; 2016 Designed and developed by Jessica Tang and Aaron Grode.</p>
         </div>
       </div>
   </div>

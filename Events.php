@@ -29,7 +29,7 @@
 
     <h3>Click <a href="https://www.facebook.com/TEDxUWMadison-207233446083245/photos/?tab=album&album_id=642660585873860">
     HERE</a> for more information about our 2015 event.</h3>
-    <h3>TED linked to our event on their site. Find that information <a href="http://www.ted.com/tedx/events/16423"> HERE</a>.</h3>
+    <h3>TED linked our event on their site. Find that information <a href="http://www.ted.com/tedx/events/16423"> HERE</a>.</h3>
   </div>
   <br>
   <div class ="pastIMG">
@@ -58,11 +58,8 @@
             <a href="mailto:smlalonde@wisc.edu?Subject=Questions!" target="_top"><img src="mail.png" style="height:45px;"
               onmouseover="this.src='mail_grey.png';" onmouseout="this.src='mail.png';"></a>
 
-            <a href=""><img src="snapchat.png" style="height:45px;"
+            <a href="http://snapchat.com/add/tedxuwmadison"><img src="snapchat.png" style="height:45px;"
               onmouseover="this.src='snapchat_grey.png';" onmouseout="this.src='snapchat.png';"></a>
-
-            <a href=""><img src="youtube.png" style="height:45px;"
-              onmouseover="this.src='youtube_grey.png';" onmouseout="this.src='youtube.png';"></a>
 
             </div>
           <div class="footerListWords">
@@ -75,6 +72,7 @@
           <div class="footerList">
             <a href="http://www.ted.com/">This independent TEDx event is operated under license from TED.</a>
           </div>
+          <p> &#169; 2016 Designed and developed by Jessica Tang and Aaron Grode.</p>
         </div>
       </div>
   </div>

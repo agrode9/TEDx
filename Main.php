@@ -40,8 +40,9 @@
   
   <img src="mainBackIMG.jpg">
 </div>
-
-
+<div class="backgroundIMGsmall">
+    <img src="mainBackIMG.jpg">
+</div>
 </body>
 <footer>
   <div id="footer">
@@ -61,11 +62,8 @@
             <a href="mailto:smlalonde@wisc.edu?Subject=Questions!" target="_top"><img src="mail.png" style="height:45px;"
               onmouseover="this.src='mail_grey.png';" onmouseout="this.src='mail.png';"></a>
 
-            <a href=""><img src="snapchat.png" style="height:45px;"
+            <a href="http://snapchat.com/add/tedxuwmadison"><img src="snapchat.png" style="height:45px;"
               onmouseover="this.src='snapchat_grey.png';" onmouseout="this.src='snapchat.png';"></a>
-
-            <a href=""><img src="youtube.png" style="height:45px;"
-              onmouseover="this.src='youtube_grey.png';" onmouseout="this.src='youtube.png';"></a>
 
             </div>
           <div class="footerListWords">
@@ -78,6 +76,7 @@
           <div class="footerList">
             <a href="http://www.ted.com/">This independent TEDx event is operated under license from TED.</a>
           </div>
+          <p> &#169; 2016 Designed and developed by Jessica Tang and Aaron Grode.</p>
         </div>
       </div>
   </div>
