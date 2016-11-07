@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="http://domain.tld/mobile.css" type="text/css" media="handheld" />
-
-
+/*<link rel="stylesheet" href="http://domain.tld/mobile.css" type="text/css" media="handheld" />
+necessary?
+*/
 body {
     background-color: #000000;
     
@@ -568,12 +568,7 @@ align-content: flex-start;
 }
 }
 @media handheld {
-  h1 {
-    font: blue;
-  }
-  p {
-    font-size: 100px;
-  }
+ /*maybe solution*/
 }
 @media (max-width: 1000px){
 h2 {
