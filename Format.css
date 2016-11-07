@@ -81,6 +81,32 @@ iframe {
     background: #b70101;
 
 }
+.fav_talks_container{
+ padding: 0;
+  margin:0;
+  list-style: none;
+  
+  /*display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;*/
+  display: flex;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.fav_talks{
+  width: 210px;
+  height:200px;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
 .left {
 float: left;
 order: 1;
@@ -309,21 +335,6 @@ background-color: #b70101;
   display: -webkit-flex;
   display: flex;
   text-decoration: none;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-.fav_talks_container{
- padding: 0;
-  margin-left: 300;
-  margin-right: 300;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
