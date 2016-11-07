@@ -568,8 +568,13 @@ align-content: flex-start;
 }
 }
 @media handheld {
-
-
+  h1 {
+    font: blue;
+  }
+  p {
+    font-size: 100px;
+  }
+}
 @media (max-width: 1000px){
 h2 {
     padding-bottom: 0px;
@@ -681,5 +686,4 @@ h2{
     .backgroundIMGsmall  {
         height: 200px;
     }
-}
 }
