@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="http://domain.tld/mobile.css" type="text/css" media="handheld" />
+
+
 body {
     background-color: #000000;
     
@@ -564,6 +567,9 @@ align-content: flex-start;
     height: 200px;
 }
 }
+@media handheld {
+
+
 @media (max-width: 1000px){
 h2 {
     padding-bottom: 0px;
@@ -675,4 +681,5 @@ h2{
     .backgroundIMGsmall  {
         height: 200px;
     }
+}
 }
