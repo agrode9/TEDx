@@ -617,6 +617,9 @@ align-content: flex-start;
   .footerList a {
     font-size: 9px;
   }
+  .columnTwo a {
+    font-size:  1px;
+  }
 }
 @media handheld {
  /*maybe solution*/
