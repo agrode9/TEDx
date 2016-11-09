@@ -571,6 +571,9 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 350px){
+   p {
+    font-size: 12px;
+}
   .twoColumnFlexHorizontal img {
     height: 200px;
     width: 210px;
