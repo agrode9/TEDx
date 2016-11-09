@@ -573,7 +573,7 @@ align-content: flex-start;
     background: #b70101;
 }
 .right{
-float: left;
+float: right;
 order: 1;
 flex-basis: auto;
 flex: 0 1 auto;
