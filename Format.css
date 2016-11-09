@@ -651,8 +651,10 @@ align-self: center;
     width: 100px;
   }
     iframe {
-    height: 100px;
+    height: 200px;
     width: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
     }
  .videoBackgroundAbout{
         display: block;
