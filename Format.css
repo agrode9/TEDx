@@ -584,7 +584,7 @@ align-content: flex-start;
   .mobileNav a {
     color: white;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 50px;
   }
   .top {
     order: 1;
