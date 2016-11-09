@@ -568,9 +568,25 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 350px){
-    #nav li a{
-    font-size: 1px;
+  #nav {
+    display: none;
   }
+
+  .mobileNav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:center;
+  }
+  .top {
+    order: 1;
+    align-self: auto;
+  }
+  .bottom {
+    order: 2;
+    align-self: auto;
+  }
+}
 
 /*  .mainMenu {
     list-style: none;
