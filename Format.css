@@ -583,7 +583,7 @@ align-content: flex-start;
   }
   .mobileNav a {
     color: white;
-    font-size: 15px;
+    font-size: 13px;
   }
   .top {
     order: 1;
@@ -596,7 +596,6 @@ align-content: flex-start;
     align-self: center;
     text-align: center;
   }
-}
   .footerList a {
     font-size: 12px;
     line-height: 20px;
@@ -649,7 +648,9 @@ align-content: flex-start;
   .footerList a {
     font-size: 9px;
   }
-
+}
+@media handheld {
+ /*maybe solution*/
 }
 @media (max-width: 1000px){
 h2 {
