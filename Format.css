@@ -572,7 +572,10 @@ align-content: flex-start;
 @media (max-width: 650px){
     .backgroundIMGsmall img {
         height: 100px;
-        width: 10px;
+        width: auto;
+    }
+    #hero h1 {
+      font-size: 15px;
     }
     .backgroundIMG {
       height: 600px;
