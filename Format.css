@@ -564,8 +564,9 @@ align-content: flex-start;
   /*FOR MOBILE*/
 @media (max-width: 350px){
   #nav li a {
-    font-size: 2px;
+    font-size: 12px;
     font-weight: -2px;
+    text-align: center;
 }
   .mainMenu {
      text-align: center; 
