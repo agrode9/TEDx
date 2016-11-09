@@ -575,7 +575,8 @@ align-content: flex-start;
     display: none;
   }
    p {
-    font-size: 12px;
+    font-size: 17px;
+    line-height: 20px;
 }
   .twoColumnFlexHorizontal img {
     height: 200px;
