@@ -571,14 +571,12 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 350px){
-  p img {
-    height: 100px;
-  }
   .twoColumnFlexHorizontal img {
     height: 200px;
     width: 210px;
     margin: 0 auto;
-    padding-right: 25px;
+    padding-right: 37px;
+    padding-bottom: 3rem;
 }
   .mobileh1 h1 {
     line-height: 30px;
