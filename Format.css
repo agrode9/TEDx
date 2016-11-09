@@ -577,7 +577,7 @@ align-content: flex-start;
     list-style: none;
     display: flex;
     flex-direction: row;
-    flex-wrap:nowrap;
+    flex-wrap: wrap;
     justify-content:center;
     background-color: 
   }
@@ -587,6 +587,8 @@ align-content: flex-start;
   }
   .top {
     order: 1;
+   flex-basis: auto;
+  flex: 0 1 auto;
     align-self: auto;
   }
   .bottom {
