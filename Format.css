@@ -564,7 +564,8 @@ align-content: flex-start;
     padding-left: 200px;
   }
   .mainMenu a {
-
+    text-align: center;
+    color: black;
   }
   .mainMenu {
      text-align: center; 
