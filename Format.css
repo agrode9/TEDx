@@ -22,7 +22,6 @@ body {
 }
 #nav li {
     float: right;
-    display: flex;
 }
 
 #nav li a {
@@ -564,6 +563,21 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 350px){
+  .left {
+float: left;
+order: 1;
+flex-basis: auto;
+flex: 0 1 auto;
+align-self: auto;
+
+}
+.right{
+order: 2;
+float: right;
+flex-basis: auto;
+flex: 0 1 auto;
+align-self: auto;
+}
   #nav li a {
     font-size: 12px;
     font-weight: -2px;
