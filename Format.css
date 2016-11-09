@@ -571,12 +571,15 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 350px){
+  .backgroundIMGsmall img {
+    display: none;
+  }
   #hero h1 {
     display: none;
   }
    p {
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 25px;
 }
   .twoColumnFlexHorizontal img {
     height: 200px;
