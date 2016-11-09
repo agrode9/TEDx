@@ -573,10 +573,16 @@ align-content: flex-start;
   }
 
   .mobileNav {
+    background-color: #b70101;
     display: flex;
     flex-direction: row;
     flex-wrap:nowrap;
     justify-content:center;
+    background-color: 
+  }
+  .mobileNav a {
+    color: white;
+    font-size: 10px;
   }
   .top {
     order: 1;
