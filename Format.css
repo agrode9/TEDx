@@ -558,7 +558,6 @@ align-content: flex-start;
     text-align: center;
     padding-right: 200px;
     font-size: 40px;
-    padding-bottom: 5rem;
   }
   #left {
     padding-right: 200px;
@@ -569,7 +568,7 @@ align-content: flex-start;
   }
   .mainMenu {
      text-align: center; 
-    justify-content: space-around;
+    justify-content: row wrap;
     align-content: center;
 
 }
