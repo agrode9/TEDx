@@ -583,7 +583,7 @@ align-content: flex-start;
   }
   .mobileNav a {
     color: white;
-    font-size: 15px;
+    font-size: 5px;
   }
   .top {
     order: 1;
