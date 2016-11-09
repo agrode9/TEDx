@@ -561,9 +561,15 @@ align-content: flex-start;
 
 
 
+
+
+
+
+
   /*FOR MOBILE*/
 @media (max-width: 350px){
-  .mainMenu {
+  
+/*  .mainMenu {
     list-style: none;
     margin: 0; 
     display: flex;
@@ -638,7 +644,7 @@ align-self: center;
   .footerList a {
     font-size: 9px;
   }
-
+*/
 }
 @media handheld {
  /*maybe solution*/
