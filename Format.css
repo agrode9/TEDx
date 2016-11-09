@@ -574,6 +574,7 @@ align-content: flex-start;
 
   .mobileNav {
     background-color: #b70101;
+    list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap:nowrap;
@@ -582,7 +583,7 @@ align-content: flex-start;
   }
   .mobileNav a {
     color: white;
-    font-size: 10px;
+    font-size: 15px;
   }
   .top {
     order: 1;
