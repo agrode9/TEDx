@@ -541,9 +541,40 @@ align-content: flex-start;
         height: 400px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*FOR MOBILE*/
 @media (max-width: 650px){
     .backgroundIMGsmall img {
-        height: 200px;
+        height: 100px;
+    }
+    .backgroundIMG {
+      height: 400px;
     }
      video {
         height: 200px;
@@ -554,10 +585,10 @@ align-content: flex-start;
     height: 370px;
     }
   .videoBackground video{
-    width: 600px;
+    width: 100px;
   }
     iframe {
-    height: 200px;
+    height: 100px;
     width: auto;
     }
  .videoBackgroundAbout{
