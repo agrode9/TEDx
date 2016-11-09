@@ -565,7 +565,10 @@ align-content: flex-start;
 @media (max-width: 350px){
   .footerList a {
     font-size: 12px;
-    line-height: 10px;
+    line-height: 20px;
+  }
+  .columnTwo p {
+    line-height: 20px;
   }
   #nav li a {
     font-size: 10px;
