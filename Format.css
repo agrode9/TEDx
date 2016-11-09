@@ -509,7 +509,7 @@ align-content: flex-start;
     }
 }*/
 @media (max-width: 980px){
-  #nav a{
+  #nav li a{
     font-size: 10px;
   }
     .backgroundIMGsmall img {
