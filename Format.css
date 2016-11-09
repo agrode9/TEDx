@@ -567,6 +567,9 @@ align-content: flex-start;
     font-size: 12px;
     line-height: 20px;
   }
+  .footerList {
+    padding-bottom: 2rem;
+  }
   .columnTwo p {
     line-height: 20px;
   }
