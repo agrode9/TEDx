@@ -588,7 +588,7 @@ align-content: flex-start;
       font-size: 32px;
     }
     .backgroundIMG {
-      height: 1000px;
+      /*always overlying image*/
     }
      video {
         height: 200px;
@@ -614,6 +614,9 @@ align-content: flex-start;
     width: 210px;
     height: 200px;
 }
+  .footerList a {
+    font-size: 9px;
+  }
 }
 @media handheld {
  /*maybe solution*/
