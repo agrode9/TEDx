@@ -569,7 +569,7 @@ align-content: flex-start;
   /*FOR MOBILE*/
 @media (max-width: 350px){
     #nav li a{
-    font-size: 10px;
+    font-size: 5px;
   }
 
 /*  .mainMenu {
