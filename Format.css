@@ -673,6 +673,35 @@ align-self: center;
 @media handheld {
  /*maybe solution*/
 }
+@media (min-width: 1660px){
+  .right{
+    padding-left: 40rem;
+  }
+}
+@media (min-width: 1500px){
+ /* .mobileNav{
+    display: flex;
+    background-color: #b70101;
+    height: 70px;
+  }
+  .mobileNav a {
+    color: white;
+    font-size: 22px;
+    padding: 3rem;
+    text-align: center;
+    margin: 0 0 auto;
+  }*/
+  .mainMenu {
+    display: flex;
+
+  }
+  .left {
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+}
 @media (max-width: 1000px){
 h2 {
     padding-bottom: 0px;
