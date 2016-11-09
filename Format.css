@@ -570,12 +570,15 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 650px){
+     #nav li a {
+        font-size: 9px;
+    }
     .backgroundIMGsmall img {
         height: 100px;
         width: auto;
     }
     #hero h1 {
-      font-size: px;
+      font-size: 19px;
     }
     .backgroundIMG {
       height: 600px;
