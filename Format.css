@@ -559,13 +559,14 @@ align-content: flex-start;
     padding-right: 200px;
   }
   #left {
-    padding: 10rem;
+    padding-right: 2rem;
   }
+
   .mainMenu {
     list-style: none;
     margin: 0; 
     display: flex;
-    flex-flow: none;
+    flex-flow: row;
     justify-content: center;
     text-align: center;
     background: #b70101;
