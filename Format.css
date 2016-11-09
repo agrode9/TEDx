@@ -559,9 +559,11 @@ align-content: flex-start;
     padding-right: 200px;
   }
   #left {
-    padding-right: 2rem;
+    padding-right: 100px;
   }
-
+  .mainMenu a {
+    font-size: 2px;
+  }
   .mainMenu {
     list-style: none;
     margin: 0; 
