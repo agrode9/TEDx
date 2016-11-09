@@ -552,24 +552,12 @@ align-content: flex-start;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /*FOR MOBILE*/
 @media (max-width: 650px){
+  #left a {
+    text-align: center;
+    padding-right: 200px;
+  }
   .mainMenu {
     list-style: none;
     margin: 0; 
