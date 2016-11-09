@@ -574,8 +574,8 @@ align-content: flex-start;
     list-style: none;
     margin: 0; 
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
+    flex-flow: none;
+    justify-content: center;
     text-align: center;
     background: #b70101;
 
@@ -585,7 +585,7 @@ align-content: flex-start;
         width: auto;
     }
     #hero h1 {
-      font-size: 25px;
+      font-size: 32px;
     }
     .backgroundIMG {
       height: 1000px;
