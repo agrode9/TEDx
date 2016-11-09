@@ -560,19 +560,14 @@ align-content: flex-start;
   }
   #left {
     padding-right: 100px;
-    text-align: center;
   }
   .mainMenu a {
-    font-size: 2px;
+    
   }
   .mainMenu {
-    list-style: none;
-    margin: 5rem; 
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    text-align: center;
-    background: #b70101;
+     text-align: center; 
+    justify-content: space-around;
+    align-content: center;
 
 }
     .backgroundIMGsmall img {
