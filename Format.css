@@ -542,7 +542,16 @@ align-content: flex-start;
     }
 }
 
-
+@media(max-width: 500px){
+  .backgroundIMGsmall img {
+        height: 200px;
+        width: auto;
+    }
+    video {
+        height: 200px;
+        width: auto;
+    }
+}
 
 
 
@@ -553,19 +562,9 @@ align-content: flex-start;
 
 
   /*FOR MOBILE*/
-@media (max-width: 650px){
-  #left a {
-    text-align: center;
-    padding-right: 200px;
-    font-size: 40px;
-  }
-  #left {
-    padding-right: 200px;
-    padding-left: 200px;
-  }
-  .mainMenu a {
-    text-align: center;
-    color: black;
+@media (max-width: 350px){
+  #nav a {
+    font-size: 2px;
   }
   .mainMenu {
      text-align: center; 
