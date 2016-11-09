@@ -557,10 +557,11 @@ align-content: flex-start;
   #left a {
     text-align: center;
     padding-right: 200px;
+    font-size: 20px;
   }
   #left {
-    text-align: center;
-    font-size: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
   }
   .mainMenu a {
 
