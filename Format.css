@@ -559,10 +559,11 @@ align-content: flex-start;
     padding-right: 200px;
   }
   #left {
-    padding-right: 100px;
+    text-align: center;
+    font-size: 20px;
   }
   .mainMenu a {
-    
+
   }
   .mainMenu {
      text-align: center; 
