@@ -541,7 +541,7 @@ align-content: flex-start;
         height: 400px;
     }
 }
-@media (max-width: 620px){
+@media (max-width: 650px){
     .backgroundIMGsmall img {
         height: 200px;
     }
@@ -553,6 +553,9 @@ align-content: flex-start;
     display: block;
     height: 370px;
     }
+  .videoBackground video{
+    width: 600px;
+  }
     iframe {
     height: 200px;
     width: auto;
