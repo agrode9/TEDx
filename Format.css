@@ -588,12 +588,13 @@ align-content: flex-start;
   .top {
     order: 1;
    flex-basis: auto;
-  flex: 0 1 auto;
-    align-self: auto;
+    flex: 0 1 auto;
+    align-self: center;
   }
   .bottom {
     order: 2;
-    align-self: auto;
+    align-self: center;
+    text-align: center;
   }
 }
 
