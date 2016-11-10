@@ -401,6 +401,9 @@ align-content: flex-start;
 .footerList a:hover{
     color: black;
 }
+.footerListWords {
+  margin: 0 auto;
+}
 .footerListWords a {
       text-decoration: none;
     font-family: 'Lato', serif;
@@ -410,7 +413,7 @@ align-content: flex-start;
     padding: 20px;
 }
 .footerListWords a:hover{
-    color: #b70101;
+    /*do later*/
 }
 .resumeFlex {
     display: flex;
