@@ -5,6 +5,33 @@ body {
     background-color: #000000;
     
 }
+
+
+.tint {
+  position: relative;
+  float: left;
+  cursor: pointer;
+
+}
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all .3s linear;
+}
+
+.tint:hover:before { background: rgba(0,0,0, .3); }
+
+
+
+
+
+
+
 .mobileNav{
   display: none;
 }
@@ -573,7 +600,16 @@ align-content: flex-start;
 
 
   /*FOR MOBILE*/
-@media (max-width: 350px){
+@media (max-width: 500px){
+   .footerList a {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  #nav li a {
+   
+    padding: 10px;
+   
+}
   .backgroundIMGsmall img {
     display: none;
   }
