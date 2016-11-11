@@ -623,13 +623,18 @@ align-content: flex-start;
     font-size: 20px;
     line-height: 25px;
 }
-  .twoColumnFlexHorizontal img {
-    height: 200px;
-    width: 210px;
-    margin: 0 auto;
-    padding-right: 37px;
-    padding-bottom: 3rem;
-}
+ .columnOneHorizontal img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+   }
+ .columnTwoHorizontal img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+ }
   .mobileh1 h1 {
     line-height: 30px;
   }
