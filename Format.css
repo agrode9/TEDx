@@ -71,7 +71,7 @@ body {
 font-weight:bold;
 text-decoration:none;
 border-bottom:10px solid #333333;
-
+transition: all .3s linear;
 }
 video {
     display: block;
@@ -298,6 +298,7 @@ a{
 }
 a:hover{
   color: #0EBFE9;
+  transition: all .3s linear;
 }
 #footer{
   position: relative;
@@ -427,6 +428,7 @@ align-content: flex-start;
 }
 .footerList a:hover{
     color: black;
+    transition: all .3s linear;
 }
 .footerListWords {
   margin: 0 auto;
@@ -440,7 +442,8 @@ align-content: flex-start;
     padding: 20px;
 }
 .footerListWords a:hover{
-    /*do later*/
+    color: #EEF2E2;
+    transition: all .3s linear;
 }
 .resumeFlex {
     display: flex;
