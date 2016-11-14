@@ -837,33 +837,7 @@ align-self: center;
 h2 {
     padding-bottom: 0px;
 }
-    #columns{
-         -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-
-    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 30px; /* Firefox */
-    column-gap: 30px;
-
-    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
-    -moz-column-rule-style: solid; /* Firefox */
-    column-rule-style: solid;
-
-    -webkit-column-rule-width: 4px; /* Chrome, Safari, Opera */
-    -moz-column-rule-width: 4px; /* Firefox */
-    column-rule-width: 4px;
-
-    -webkit-column-rule-color: #b70101; /* Chrome, Safari, Opera */
-    -moz-column-rule-color: #b70101; /* Firefox */
-    column-rule-color: #b70101;
-
-    -webkit-column-width: auto; /* Chrome, Safari, Opera */
-    -moz-column-width: auto; /* Firefox */
-    column-width: auto;
-    overflow: hidden;
-
-}
+ 
 p {
     margin-left: 0;
     margin-right: 0;
