@@ -713,7 +713,7 @@ align-self: center;
     text-align: center;
 }
     .backgroundIMGsmall img {
-        height: 180px;
+        height: 150px;
         width: auto;
         display: block;
         margin: 0 auto;
@@ -723,7 +723,7 @@ align-self: center;
     }
     .backgroundIMG {
       background-color: white;
-      height: 500px;
+      height: 800px;
     }
      video {
         height: 200px;
