@@ -720,7 +720,7 @@ align-self: center;
       font-size: 32px;
     }
     .backgroundIMG {
-      height: 400px;
+      background-color: white;
     }
      video {
         height: 200px;
@@ -728,7 +728,13 @@ align-self: center;
     }
  .videoBackground{
     display: block;
-    height: 370px;
+    height: 0px;
+    }
+    .videoBackground h3 span{
+      color: white;
+    }
+    .backgroundIMG h3 span{
+      color: black;
     }
   .videoBackground video{
     width: 100px;
