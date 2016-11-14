@@ -641,8 +641,8 @@ align-content: flex-start;
 }
   .twoColumnFlexHorizontal{
    display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
      /*display: block;*/
