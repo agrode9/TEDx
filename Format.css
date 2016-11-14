@@ -748,6 +748,9 @@ align-self: center;
   .footerList a {
     font-size: 9px;
   }
+  #hero {
+    width: 97%;
+  }
 
 }
 @media handheld {
