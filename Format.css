@@ -5,8 +5,7 @@ body {
     background-color: #000000;
     
 }
-
-
+/*
 .tint {
   position: relative;
   float: left;
@@ -27,10 +26,7 @@ body {
 .tint:hover:before { background: rgba(0,0,0, .3); }
 
 
-
-
-
-
+*/
 
 .mobileNav{
   display: none;
@@ -631,17 +627,19 @@ align-content: flex-start;
      display: block;
   margin: 0 auto;
   margin-bottom: 20px;
+  padding-left: 25px;
   }
  .columnOneHorizontal img {
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
-
+  padding-left: 25px;
    }
  .columnTwoHorizontal img {
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
+  padding-left: 25px;
 
  }
   .mobileh1 h1 {
