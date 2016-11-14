@@ -644,7 +644,7 @@ align-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: flex-start;
+  align-content: center;
      /*display: block;*/
   margin: 0 auto;
   margin-bottom: 20px;
