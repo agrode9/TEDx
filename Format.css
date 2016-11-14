@@ -607,18 +607,8 @@ align-content: flex-start;
 
 
 
-
-
-
-
-
-
   /*FOR MOBILE*/
 @media (max-width: 500px){
-
-
-
-
 
    .footerList a {
     font-size: 12px;
