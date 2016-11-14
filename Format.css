@@ -623,6 +623,15 @@ align-content: flex-start;
     font-size: 20px;
     line-height: 25px;
 }
+  .twoColumnFlexHorizontal{
+    display: block;
+  margin: 0 auto;
+  }
+  .twoColumnFlexHorizontal img{
+     display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  }
  .columnOneHorizontal img {
   display: block;
   margin: 0 auto;
