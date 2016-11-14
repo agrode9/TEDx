@@ -615,6 +615,11 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 500px){
+
+
+
+
+
    .footerList a {
     font-size: 12px;
     line-height: 10px;
@@ -643,13 +648,13 @@ align-content: flex-start;
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
- /*  padding-right: 40px;*/
+   padding-right: 40px;
    }
  .columnTwoHorizontal img {
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
-  /*padding-right: 40px;*/
+  padding-right: 40px;
  }
   .mobileh1 h1 {
     line-height: 30px;
