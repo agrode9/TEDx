@@ -640,9 +640,15 @@ align-content: flex-start;
     line-height: 25px;
 }
   .twoColumnFlexHorizontal{
-     display: block;
+   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: flex-start;
+     /*display: block;*/
   margin: 0 auto;
   margin-bottom: 20px;
+  height: 500px;
   }
  .columnOneHorizontal img {
   display: block;
