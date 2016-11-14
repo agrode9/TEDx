@@ -640,7 +640,7 @@ align-content: flex-start;
   margin-bottom: 20px;
   }
   .twoColumnFlexVertical p {
-    padding-top: 7px;
+    padding-top: 10px;
   }
  .columnOneHorizontal img {
   display: block;
