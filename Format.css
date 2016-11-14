@@ -342,6 +342,9 @@ flex: 0 1 auto;
 align-self: auto;
 background-color: #b70101;
 } 
+.twoColumnFlexVertical p {
+  color: white;
+}
 .seperator {
     flex-basis: auto;
     flex: 0 1 auto;
