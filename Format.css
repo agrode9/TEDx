@@ -633,7 +633,7 @@ align-content: flex-start;
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
-
+  padding-right: 20px;
  }
   .mobileh1 h1 {
     line-height: 30px;
