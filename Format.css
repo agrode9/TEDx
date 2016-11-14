@@ -627,7 +627,7 @@ align-content: flex-start;
   /*FOR MOBILE*/
 @media (max-width: 500px){
 #contactImage img {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     width: 99%;
     height: auto;
     display: block;
