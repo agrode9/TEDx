@@ -39,11 +39,14 @@ ul.tab {
     background-color: #f1f1f1;
     width: 200px;
     border-radius: 10px;
+      list-style: none;
+
 }
 
 /* Float the list items side by side */
 ul.tab li {
   float: left;
+  list-style: none;
 }
 
 /* Style the links inside the list items */
@@ -55,6 +58,8 @@ ul.tab li a {
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+      list-style: none;
+
 }
 
 /* Change background color of links on hover */
