@@ -713,8 +713,10 @@ align-self: center;
     text-align: center;
 }
     .backgroundIMGsmall img {
-        height: 100px;
+        height: 200px;
         width: auto;
+        display: block;
+        margin: 0 auto;
     }
     #hero h1 {
       font-size: 32px;
