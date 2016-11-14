@@ -283,8 +283,9 @@ p {
 }
 .backgroundIMG h3 span {
     color: white; 
-   font: bold 24px/45px Lato, Lato; 
-   line-height: 35px;
+    font-size: 24px;
+    font-family: 'Lato';
+   line-height: 30px;
 }
 .backgroundIMG h3 span.spacer {
     padding: 0 5px;
@@ -510,8 +511,14 @@ align-content: flex-start;
     }
 }
 @media (max-width: 1180px) {
+   #hero img {
+    width: 60%;
+  }
      .backgroundIMG img {
-        display: none;
+      
+        width: 60%;
+        display: block;
+        margin: 0 auto;
      }
      .backgroundIMG h3 {
         width: 100%;
@@ -526,10 +533,7 @@ align-content: flex-start;
         height: 300px;
      }
      .backgroundIMGsmall img{
-        height: 500px;
-        width: auto;
-        margin: 0 auto;
-        display: block;
+        display: none;
      }
      .backgroundIMGsmall {
         display: block;
@@ -556,8 +560,15 @@ align-content: flex-start;
     }
 }*/
 @media (max-width: 980px){
+   #hero img {
+    width: 60%;
+  }
     .backgroundIMGsmall img {
-        height: 300px;
+        
+        display: none;
+    }
+    .backgroundIMG img {
+      display: none;
     }
     video {
         height: 300px;
@@ -586,6 +597,10 @@ align-content: flex-start;
     }
     .videoBackgroundAbout {
         height: 400px;
+    }
+    #hero img {
+      width: 99.5%;
+
     }
 }
 
@@ -722,7 +737,7 @@ align-self: center;
     }
     .backgroundIMG {
       background-color: white;
-      height: 800px;
+     margin-bottom: -400px;
     }
      video {
         height: 200px;
@@ -797,6 +812,11 @@ align-self: center;
   }
 }
 @media (max-width: 1000px){
+   #hero img {
+    width: 97%;
+    display: block;
+    margin: 0 auto;
+  }
 h2 {
     padding-bottom: 0px;
 }
