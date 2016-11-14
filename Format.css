@@ -84,7 +84,7 @@ video {
 .videoBackground{
     display: block;
     height: 800px;
-    background-color: #333333;
+    background-color: white;
 }
 .videoBackgroundAbout {
     display: block;
@@ -881,7 +881,7 @@ h2{
   @media screen and (min-width: 75em) {
     #hero img {
       object-fit: cover;
-      object-position: 0% 22%;
+      object-position: 0% 20%;
       /*the defualt was at 400px for max-height*/
       max-height: 450px; 
     }
