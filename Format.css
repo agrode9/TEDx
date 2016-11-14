@@ -639,6 +639,9 @@ align-content: flex-start;
   margin: 0 auto;
   margin-bottom: 20px;
   }
+  .twoColumnFlexVertical p {
+    padding-top: 7px;
+  }
  .columnOneHorizontal img {
   display: block;
   margin: 0 auto;
