@@ -28,6 +28,48 @@ body {
 
 */
 
+.aboutTed img {
+  height: 150px;
+}
+.contactWeb{
+  background: #CACCBD;
+  margin-bottom: 20px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.contactWeb h3 {
+  display: absolute;
+  margin: 0 auto;
+}
+.contactWeb a{
+  margin-left: 40px;
+  background-color: #F7F5E8;
+  border: 17px solid transparent;
+}
+.contactWeb a:hover{
+  color: white;
+  background-color: #b70101;
+}
+.rightWeb{
+float: right;
+order: 2;
+flex-basis: auto;
+flex: 0 1 auto;
+align-self: center;
+}
+.leftWeb{
+order: 1;
+flex-basis: auto;
+flex: 0 1 auto;
+align-self: center;
+}
+
+
+
 /* Style the list */
 ul.tab {
     list-style-type: none;
@@ -42,7 +84,6 @@ ul.tab {
     list-style: none;
 
 }
-
 /* Float the list items side by side */
 ul.tab li {
   float: left;
@@ -552,7 +593,7 @@ align-content: flex-start;
     padding: 20px;
 }
 .footerListWords a:hover{
-    color: #EEF2E2;
+    color: #CACCBD;
     transition: all .3s linear;
 }
 .resumeFlex {
@@ -722,6 +763,36 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 500px){
+
+  .contactWeb{
+  flex-direction: column;
+  height: 150px;
+}
+.contactWeb h3 {
+  display: absolute;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.contactWeb a{
+  margin-left: 40px;
+  background-color: #F7F5E8;
+  border: 17px solid transparent;
+}
+.contactWeb a:hover{
+  color: white;
+  background-color: #b70101;
+}
+.leftWeb h3{
+display: block;
+margin: 0 auto;
+}
+.rightWeb a{
+display: block;
+margin: 0 auto;
+}
+
+
+
    .footerList a {
     font-size: 12px;
     line-height: 10px;
