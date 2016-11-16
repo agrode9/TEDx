@@ -485,6 +485,9 @@ background-color: #b70101;
   text-align: center;
   background-color: black;
 }
+.exec_bios_flex h1 {
+  color: white;
+}
 .exec_bios_flex p {
   color: white;
 }
