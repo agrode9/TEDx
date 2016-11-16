@@ -29,10 +29,12 @@ body {
 */
 
 .aboutTed img {
-  height: 150px;
+  height: 200px;
+  padding-right: 100px;
 }
 .contactWeb{
-  background: #CACCBD;
+  /*background: #CACCBD;*/
+  margin-top: 38px;
   margin-bottom: 20px;
   height: 60px;
   display: flex;
@@ -44,15 +46,17 @@ body {
 .contactWeb h3 {
   display: absolute;
   margin: 0 auto;
+  font-size: 15px;
 }
 .contactWeb a{
+  font-size: 15px;
   margin-left: 40px;
-  background-color: #F7F5E8;
+  background-color: white;
   border: 17px solid transparent;
 }
 .contactWeb a:hover{
   color: white;
-  background-color: #b70101;
+  background-color: #e62b1e;
 }
 .rightWeb{
 float: right;
@@ -764,7 +768,10 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 500px){
-
+.aboutTed img {
+  height: 150px;
+  padding-right: 0px;
+}
   .contactWeb{
   flex-direction: column;
   height: 150px;
@@ -776,13 +783,12 @@ align-content: flex-start;
 }
 .contactWeb a{
   margin-left: 40px;
-  background-color: #F7F5E8;
+  /*background-color: #F7F5E8;*/
   border: 17px solid transparent;
+    color: white;
+  background-color: #e62b1e;
 }
-.contactWeb a:hover{
-  color: white;
-  background-color: #b70101;
-}
+
 .leftWeb h3{
 display: block;
 margin: 0 auto;
