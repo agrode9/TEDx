@@ -46,9 +46,9 @@
 </div>
 <body>
    <ul class="tab">
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, '2016')" id="defaultOpen">2016</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, '2015')">2015</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, '2014')">2014</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openEvent(event, '2016')" id="defaultOpen">2016</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openEvent(event, '2015')">2015</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openEvent(event, '2014')">2014</a></li>
 </ul>
 <div id="2016" class="tabcontent">
    <div class ="pastIMG">
@@ -163,7 +163,7 @@
 </div>
   <!-- script from http://www.w3schools.com/howto/howto_js_tabs.asp for tab help -->
 <script type="text/javascript">
-function openCity(evt, cityName) {
+function openEvent(evt, year) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -180,7 +180,7 @@ function openCity(evt, cityName) {
     }
 
     // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(year).style.display = "block";
     evt.currentTarget.className += " active";
 }
 // Get the element with id="defaultOpen" and click on it
