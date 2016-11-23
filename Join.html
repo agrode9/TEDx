@@ -47,7 +47,32 @@
 </div>
 <body>
   <div id ="contactImage">
-     <h2>Don't miss a thing! <a href="mailto:smlalonde@wisc.edu?Subject=Questions!" target="_top">Email us</a> to join the list. </h2>
+    <!-- <a href="mailto:smlalonde@wisc.edu?Subject=Questions!" target="_top">Email us</a> to join the list.  -->
+     <h2>Don't miss a thing! Fill out our form to join the email list!</h2>
+
+     <!-- if they dont want the form, delete it -->
+      <div id="contactForm">
+        <form action="https://formspree.io/smlalonde@wisc.edu" method="POST" target="_blank">
+            <ul class="container">
+                <li class="row">
+                    <input type="text" name="name" placeholder="Name" required>
+                </li>
+                <li class="row2">
+                    <input type="email" name="_replyto" placeholder="E-mail" required>
+                </li>
+            </ul>
+                <div class="row3">
+                    <textarea type="text" name="message" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send" id="contact-form-send">
+               <!--      <input type="hidden" name="_cc" value="grode2@wisc.edu" /> -->
+                </div>
+        </form>
+      </div>
+      <!-- form to delete -->
+
+
+
+
     <img src="tedExec.jpg">
   </div>
   <div class="join">

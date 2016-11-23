@@ -28,6 +28,109 @@ body {
 
 */
 
+/*contactForm. If they veto it, delete all this code to next comment.*/
+#contactForm{
+  background-color: white;
+    display: block;
+    width: 70%;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center 0;
+  margin: 0 auto;
+}
+.container{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.row{
+  width: 40%;
+  order: 1;
+  flex-basis: auto;
+  flex: 0 1 auto;
+  align-self: auto;
+
+}
+.row2{
+  width: 39.8%;
+  order: 2;
+  flex-basis: auto;
+  flex: 0 1 auto;
+  align-self: auto;
+
+}
+.row3 {
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+.row3 textarea{
+  height: 150px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.row3 input{
+  height: 50px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+input, textarea {
+  width: 100%;
+    height: 50px;
+    border: solid #e62b1e 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    background-color: white;
+    /*background-color: rgba(0,0,0,0);*/
+   /* font-family: 'Open Sans', sans-serif;*/
+    font-size: 1.2em;
+}
+#contact-form-send{
+  background-color: white;
+  color: black;
+   border: solid #e62b1e 2px;
+}
+#contact-form-send:hover{
+  background-color: #e62b1e;
+  color: white;
+  transition: all .3s linear;
+
+}
+#contactForm{
+  height: 400px;
+}
+/*END CONTACT FORM*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -169,7 +272,7 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #b70101;
+    background-color: #e62b1e;
 }
 #nav li {
     float: right;
@@ -234,7 +337,7 @@ iframe {
     flex-flow: row wrap;
     justify-content: flex-end;
 
-    background: #b70101;
+    background: #e62b1e;
 
 }
 .fav_talks_container{
@@ -317,7 +420,7 @@ align-self: auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 45px;
     text-align: center;
-    color: #b70101;
+    color: #e62b1e;
 }
 h1{
     text-decoration: none;
@@ -348,7 +451,7 @@ h4{
     font-family: 'Montserrat', sans-serif;
     font-size: 23px;
     text-align: center;
-    color: #b70101;
+    color: #e62b1e;
 }
 h5{
     text-decoration: none;
@@ -423,7 +526,7 @@ p {
     line-height: 100%;
 }
 a{
-  color: #b70101;
+  color: #e62b1e;
   text-decoration: none;
   font-weight: 900;
 }
@@ -466,7 +569,7 @@ order: 2;
 flex-basis: auto;
 flex: 0 1 auto;
 align-self: auto;
-background-color: #b70101;
+background-color: #e62b1e;
 } 
 .twoColumnFlexVertical p {
   color: white;
@@ -776,6 +879,18 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 500px){
+  #contactForm{
+  background-color: white;
+    display: block;
+    width: 90%;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center 0;
+  margin: 0 auto;
+}
 .aboutTed img {
   height: 150px;
   padding-right: 0px;
@@ -867,7 +982,7 @@ margin: 0 auto;
   }
 
   .mobileNav {
-    background-color: #b70101;
+    background-color: #e62b1e;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -989,7 +1104,7 @@ align-self: center;
 @media (min-width: 1500px){
  /* .mobileNav{
     display: flex;
-    background-color: #b70101;
+    background-color: #e62b1e;
     height: 70px;
   }
   .mobileNav a {
