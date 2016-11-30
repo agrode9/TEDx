@@ -51,8 +51,6 @@
 
 
 
-
-
       <!-- AUTOMATIC CAROUSEL FOR INDEX.HTML AFTER 2016 EVENT. -->
   <!-- <img class="mySlides" src="hero.jpg" style="border:none;">
         <img class="mySlides" src="tedx.jpg" style="border:none;">
@@ -81,7 +79,7 @@
 
 
 
-  
+
 </div>
 
 
@@ -120,31 +118,31 @@
       function currentDiv(n){
         var i;
         var x = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("select");
+          var selector = document.getElementsByClassName("select");
          for (i = 0; i < x.length; i++) {
               x[i].style.display = "none"; 
           }
-          for (i = 0; i < dots.length; i++) {
-             dots[i].className = dots[i].className.replace(" active", "");
+          for (i = 0; i < selector.length; i++) {
+             selector[i].className = selector[i].className.replace(" active", "");
           }
           x[n].style.display = "block";  
-          dots[n].className += " active";
+          selector[n].className += " active";
       }
 
       function showDivs(n) {
           var i;
           var x = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("select");
+          var selector = document.getElementsByClassName("select");
           if (n > x.length) {slideIndex = 1}    
           if (n < 1) {slideIndex = x.length}
           for (i = 0; i < x.length; i++) {
              x[i].style.display = "none";  
           }
-          for (i = 0; i < dots.length; i++) {
-             dots[i].className = dots[i].className.replace(" active", "");
+          for (i = 0; i < selector.length; i++) {
+             selector[i].className = selector[i].className.replace(" active", "");
           }
           x[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
+          selector[slideIndex-1].className += " active";
 }
       </script>
   </div> -->
