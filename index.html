@@ -45,6 +45,54 @@
     <img src="hero.jpg">
     <h1>TEDxUWMadison</h1>
 </div>
+  <div class="photos">
+      <img class="mySlides" src="hero.jpg" style="border:none;">
+      <img class="mySlides" src="tedx.jpg" style="border:none;">
+      <img class="mySlides" src="banner2.jpg" style="border:none;">
+      <img class="mySlides" src="banner3.jpg" style="border:none;">
+
+      <a class="leftSwitch" onclick="plusDivs(-1)">&#10094;</a>
+      
+      
+      <span class="select" onclick="currentDiv(0)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(1)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(2)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(3)">&nbsp;</span>
+
+      <a class="rightSwitch" onclick="plusDivs(+1)">&#10095;</a>
+
+
+      <script type="text/javascript">
+        var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+          showDivs(slideIndex += n);
+      }
+      function currentDiv(n){
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+
+         for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none"; 
+          }
+          x[n].style.display = "block"; 
+      }
+      function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1} 
+          if (n < 1) {slideIndex = x.length} ;
+          for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none"; 
+          }
+          x[slideIndex-1].style.display = "block"; 
+      }
+      </script>
+  </div>
+
+
+
 <body>
   <h2>What is <a href="https://www.ted.com/about/programs-initiatives/tedx-program" target="_blank">TEDx?</a></h2>
         <!-- <h2>Watch our video to learn more</h2> -->
