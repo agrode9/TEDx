@@ -45,7 +45,9 @@
     <img src="hero.jpg">
     <h1>TEDxUWMadison</h1>
 </div>
-  <div class="photos">
+
+        <!-- CODE TO CREATE A MANUAL CAROUSEL WITH THE PHOTOS FROM 2016. -->
+ <!--  <div class="photos">
       <img class="mySlides" src="hero.jpg" style="border:none;">
       <img class="mySlides" src="tedx.jpg" style="border:none;">
       <img class="mySlides" src="banner2.jpg" style="border:none;">
@@ -54,7 +56,7 @@
       <a class="leftSwitch" onclick="plusDivs(-1)">&#10094;</a>
       
       
-      <span class="select" onclick="currentDiv(0)">&nbsp;</span>
+      <span class="select active" onclick="currentDiv(0)">&nbsp;</span>
       <span class="select" onclick="currentDiv(1)">&nbsp;</span>
       <span class="select" onclick="currentDiv(2)">&nbsp;</span>
       <span class="select" onclick="currentDiv(3)">&nbsp;</span>
@@ -72,24 +74,34 @@
       function currentDiv(n){
         var i;
         var x = document.getElementsByClassName("mySlides");
-
+          var dots = document.getElementsByClassName("select");
          for (i = 0; i < x.length; i++) {
               x[i].style.display = "none"; 
           }
-          x[n].style.display = "block"; 
+          for (i = 0; i < dots.length; i++) {
+             dots[i].className = dots[i].className.replace(" active", "");
+          }
+          x[n].style.display = "block";  
+          dots[n].className += " active";
       }
+
       function showDivs(n) {
           var i;
           var x = document.getElementsByClassName("mySlides");
-          if (n > x.length) {slideIndex = 1} 
-          if (n < 1) {slideIndex = x.length} ;
+          var dots = document.getElementsByClassName("select");
+          if (n > x.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = x.length}
           for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none"; 
+             x[i].style.display = "none";  
           }
-          x[slideIndex-1].style.display = "block"; 
-      }
+          for (i = 0; i < dots.length; i++) {
+             dots[i].className = dots[i].className.replace(" active", "");
+          }
+          x[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+}
       </script>
-  </div>
+  </div> -->
 
 
 
