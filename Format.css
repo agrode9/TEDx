@@ -820,7 +820,7 @@ align-content: flex-start;
 .aboutBody h2 {
     padding-bottom: 0px;
 }
-@media (max-width: 528px){
+@media (max-width: 673px){
    #nav li a {
         font-size: 12px;
     }
@@ -930,6 +930,7 @@ align-content: flex-start;
   .backgroundIMGsmall img {
         height: 200px;
         width: auto;
+        display: block;
     }
     video {
         height: 200px;
@@ -999,8 +1000,9 @@ margin: 0 auto;
     padding: 10px;
    
 }
-  .backgroundIMGsmall img {
-    display: none;
+  .backgroundIMG{
+    height: 600px;
+    display: block;
   }
   #hero h1 {
     display: none;
@@ -1273,13 +1275,5 @@ h2{
       object-position: 0% 20%;
       /*the defualt was at 400px for max-height*/
       max-height: 450px; 
-    }
-}
-@media (max-width: 588px){
-    .backgroundIMG {
-        height: 500px;
-    }
-    .backgroundIMGsmall  {
-        height: 200px;
     }
 }
