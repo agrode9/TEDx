@@ -1163,12 +1163,14 @@ align-self: center;
   #hero {
     width: 95%;
   }
+  #contactImage{
+  width: 100%;
+  display:  block;
+
+}
 #contactImage img{
-    padding-bottom: 10px;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+
+    display: none;
 }
 }
 @media handheld {
@@ -1178,6 +1180,7 @@ align-self: center;
   .right{
     padding-left: 40rem;
   }
+
 }
 @media (min-width: 1500px){
  /* .mobileNav{
