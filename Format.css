@@ -647,6 +647,7 @@ background-color: #e62b1e;
 } 
 .twoColumnFlexVertical p {
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 .seperator {
     flex-basis: auto;
@@ -672,6 +673,8 @@ background-color: #e62b1e;
 }
 .exec_bios_flex p {
   color: white;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .execContainer {
