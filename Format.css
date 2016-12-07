@@ -52,10 +52,10 @@ necessary?
   margin: 5px;
   cursor: pointer;
 }
-/*.select:hover{
+.select:hover{
   background-color: #e62b1e;
    transition: all .3s linear;
-}*/
+}
 .select:active{
   background-color: #e62b1e;
 }
