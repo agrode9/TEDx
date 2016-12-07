@@ -30,10 +30,11 @@ necessary?
   margin: 20px;
 }
 .mySlides {
-  height: 400px;
-  width: 70%;
+  height: auto;
+  width: 90%;
   display: block;
   margin: 0 auto;
+
 
 }
 .select{
@@ -807,6 +808,7 @@ align-content: flex-start;
 }
 
 @media (max-width: 862px){
+
     h2 {
     padding-bottom: 0px;
 }
@@ -843,6 +845,13 @@ align-content: flex-start;
     }
 }
 @media (max-width: 1180px) {
+    .mySlides {
+  height: 50%;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+
+}
    #hero img {
     width: 60%;
   }
@@ -892,6 +901,7 @@ align-content: flex-start;
     }
 }*/
 @media (max-width: 980px){
+
    #hero img {
     width: 60%;
   }
@@ -957,6 +967,14 @@ align-content: flex-start;
 
   /*FOR MOBILE*/
 @media (max-width: 500px){
+  .mySlides {
+  height: 150px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+
+
+}
   #contactForm{
   background-color: white;
     display: block;
@@ -1172,6 +1190,8 @@ align-self: center;
 
     display: none;
 }
+
+
 }
 @media handheld {
  /*maybe solution*/
@@ -1288,4 +1308,11 @@ h2{
       /*the defualt was at 400px for max-height*/
       max-height: 450px; 
     }
+    .mySlides {
+  object-fit: cover;
+      object-position: 0% 20%;
+      /*the defualt was at 400px for max-height*/
+      max-height: 450px; 
+
+}
 }
