@@ -19,7 +19,7 @@
   <div id="nav">
       <ul class="mainMenu">
         <div id="left">
-          <li><a href="index.html">TEDxUWMadison</a></li>
+          <li><a href="index.html">Home</a></li>
         </div>
         <div class="right">
           <li><a href="FavoriteTalks.html">Our Favorite Talks</a></li>
@@ -29,18 +29,30 @@
         </div>
       </ul>
   </div>
-</head>
-<div class="mobileNav">
-        <div class="top">
-          <a href="index.html">TEDxUWMadison</a>
-        </div>
-        <br>
-        <div class="bottom">
-          <li><a href="About.html">About</a> | <a href="Events.html">Events</a> | <a href="Join.html">Join</a> | <a href="FavoriteTalks.html">Favorite Talks</a></li>
-        </div>
-      </ul>
-</div>
 
+<header>
+  <button id="hamburger" onclick="toggle_visibility('menu', 'hamburger')"> Menu &#9776;</button>
+</header>
+<div id="menu">
+  <ul>
+    <a href="index.html"><li>Home</li></a>
+    <a href="About.html"><li>About</li></a>
+    <a href="Events.html"><li>Events</li></a>
+    <a href="Join.html"><li>Join</li></a>
+    <a href="FavoriteTalks.html"><li>Favorite Talks</li></a>
+  </ul>
+</div> 
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
 <div id="hero">
     <img src="hero.jpg">
     <h1>TEDxUWMadison</h1>

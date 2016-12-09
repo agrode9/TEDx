@@ -1,6 +1,73 @@
 /*<link rel="stylesheet" href="http://domain.tld/mobile.css" type="text/css" media="handheld" />
 necessary?
 */
+header{
+  width:100%; 
+  background:#e62b1e; 
+  height:60px; 
+  line-height:60px;
+  text-align:center;
+  display: block;
+  margin: 0 auto;
+  display: none;
+}
+header button{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#hamburger{
+  background:none;
+  position:relative;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  display: none;
+}
+
+#menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:relative; text-align:center;
+display: none;}
+#menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+#menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+#menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+#menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
+#menu ul li a:hover {  color: #fff; text-decoration:none;}
+#menu a{text-decoration:none; color:white; font-size: 20px;}
+#menu a:hover{text-decoration:none; color:white;}
+
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .leftSwitch{
   display: inline-block;
   color: white;
@@ -468,9 +535,8 @@ align-self: auto;
   position: relative;
 }
 #hero img {
-    width: 98%; 
+    width: 100%; 
     height: auto;
-    border:10px solid black;
     display: block;
     margin: 0 auto;
 }
@@ -853,7 +919,7 @@ align-content: flex-start;
 
 }
    #hero img {
-    width: 60%;
+    width: 100%;
   }
      .backgroundIMG img {
       
@@ -901,9 +967,17 @@ align-content: flex-start;
     }
 }*/
 @media (max-width: 980px){
-
+  #nav{
+    display: none;
+  }
+  #hamburger{
+    display: block;
+  }
+  header{
+    display: block;
+  }
    #hero img {
-    width: 60%;
+    width: 100%;
   }
     .backgroundIMGsmall img {
         
@@ -941,7 +1015,7 @@ align-content: flex-start;
         height: 400px;
     }
     #hero img {
-      width: 99.5%;
+      width: 100%;
 
     }
 }
@@ -1078,20 +1152,7 @@ margin: 0 auto;
     display: none;
   }
 
-  .mobileNav {
-    background-color: #e62b1e;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:center;
-    background-color: 
-  }
-  .mobileNav a {
-    color: white;
-    font-size: 18px;
-    line-height: 50px;
-  }
+ 
   .top {
     order: 1;
    flex-basis: auto;
@@ -1179,7 +1240,7 @@ align-self: center;
     font-size: 9px;
   }
   #hero {
-    width: 95%;
+    width: 100%;
   }
   #contactImage{
   width: 100%;
