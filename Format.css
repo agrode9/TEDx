@@ -835,7 +835,7 @@ align-content: flex-start;
     padding: 20px;
 }
 .footerList a:hover{
-    color: black;
+    color: #0EBFE9;
     transition: all .3s linear;
 }
 .footerListWords {
@@ -851,7 +851,7 @@ align-content: flex-start;
 
 }
 .footerListWords a:hover{
-    color: #CACCBD;
+    color: #0EBFE9;
     transition: all .3s linear;
 }
 .resumeFlex {
