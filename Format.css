@@ -417,20 +417,18 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     display: block;
     color: white;
     text-align: right;
-    padding: 30px;
+    margin: 30px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 23px;
     font-weight: normal;
 }
-
-/* Change the link color to #111 (black) on hover */
+.onPage a{
+  border-bottom:4px solid white;
+}
 #nav li a:hover {
-    font-weight: bold;
-font-weight:bold;
-text-decoration:none;
-border-bottom:10px solid #333333;
-transition: all .3s linear;
+border-bottom:4px solid white;
+transition: none;
 }
 video {
     display: block;
