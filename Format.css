@@ -1028,6 +1028,21 @@ align-content: flex-start;
         height: 200px;
         width: auto;
     }
+    .select{
+  display:inline-block;
+  border-radius:  50%;
+  background-color: transparent;
+   border: 1px solid black;
+  height: 5px;
+  width: 5px;
+  color: black;
+  font-size: 5px;
+  z-index: 1;
+  text-align: center;
+  background-position: 50% 50%;
+  margin: 5px;
+  cursor: pointer;
+}
 }
 
 
