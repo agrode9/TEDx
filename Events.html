@@ -67,8 +67,80 @@
 <div id="2016" class="tabcontent">
    <div class ="pastIMG">
     <h2>2016 - Thinking Differently</h2>
-    <img src="hero.jpg">
     </div>
+
+
+        <!-- CODE TO CREATE A MANUAL CAROUSEL WITH THE PHOTOS FROM 2016. -->
+  <div class="photos">
+      <img class="mySlides" src="1.jpg" style="border:none;">
+      <img class="mySlides" src="3.jpg" style="border:none;">
+      <img class="mySlides" src="4good.jpg" style="border:none;">
+      <img class="mySlides" src="5.jpg" style="border:none;">
+      <img class="mySlides" src="6.jpg" style="border:none;">
+      <img class="mySlides" src="7.jpg" style="border:none;">
+      <img class="mySlides" src="2.jpg" style="border:none;">
+      <img class="mySlides" src="8.jpg" style="border:none;">
+      <img class="mySlides" src="9.jpg" style="border:none;">
+      <img class="mySlides" src="10.jpg" style="border:none;">
+
+      <a class="leftSwitch" onclick="plusDivs(-1)">&#10094;</a>
+      
+      
+      <span class="select active" onclick="currentDiv(0)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(1)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(2)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(3)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(4)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(5)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(6)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(7)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(8)">&nbsp;</span>
+      <span class="select" onclick="currentDiv(9)">&nbsp;</span>
+
+
+
+      <a class="rightSwitch" onclick="plusDivs(+1)">&#10095;</a>
+
+
+      <script type="text/javascript">
+        var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+          showDivs(slideIndex += n);
+      }
+      function currentDiv(n){
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+          var selector = document.getElementsByClassName("select");
+         for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none"; 
+          }
+          for (i = 0; i < selector.length; i++) {
+             selector[i].className = selector[i].className.replace(" active", "");
+          }
+          x[n].style.display = "block";  
+          selector[n].className += " active";
+      }
+
+      function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          var selector = document.getElementsByClassName("select");
+          if (n > x.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          for (i = 0; i < selector.length; i++) {
+             selector[i].className = selector[i].className.replace(" active", "");
+          }
+          x[slideIndex-1].style.display = "block";  
+          selector[slideIndex-1].className += " active";
+}
+      </script>
+  </div>
+  <h2><a href="https://www.facebook.com/pg/TEDxUWMadison-207233446083245/photos/?tab=album&album_id=834491740024076">View more</a></h2>
    <p>Our 2016 event sold out in less than two minutes!</p>
         <h1>Speakers</h1>
 
