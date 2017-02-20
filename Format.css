@@ -731,13 +731,13 @@ background-color: #e62b1e;
   justify-content: center;
   text-decoration: none;
   text-align: center;
-  background-color: black;
+  background-color: white;
 }
 .exec_bios_flex h1 {
-  color: white;
+  color: black;
 }
-.exec_bios_flex p {
-  color: white;
+._bios_flex p {
+  color: black;
   margin-right: 5px;
   margin-left: 5px;
 }
@@ -792,7 +792,7 @@ background-color: #e62b1e;
   margin-top: 10px;
   
   line-height: 150px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 3em;
   text-align: center;
